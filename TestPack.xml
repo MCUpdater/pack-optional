@@ -46,7 +46,7 @@
 	<!-- TEST MC 1.12.2 -->
 	<Server id="optional_test_1_12" name="MCU-Optional Test 1.12"
 		abstract="false" newsUrl="about:blank" generateList="true"
-		version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla"
+		version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch"
 		revision="1802.21">
 
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.2.2611">forge</Import>

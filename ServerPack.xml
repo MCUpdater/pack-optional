@@ -17,14 +17,14 @@
 				<authors>Player</authors>
 			</Meta>
 		</Module>
-		<Module name='Optifine Ultra D1' id='optifine_ultimate' depends='' side='CLIENT'>
+		<Module name='Optifine Ultra D1' id='optifine' depends='' side='CLIENT'>
 			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.7/OptiFine_1.7.10_HD_U_D1.jar</URL>
 			<Size>951431</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>57c724fe8335c82aef8d54c101043e60</MD5>
 		</Module>
-		<Module name='Optifine Standard D1' id='optifine_standard' depends='' side='CLIENT'>
+		<Module name='Optifine Standard D1' id='optifine' depends='' side='CLIENT'>
 			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.7/OptiFine_1.7.10_HD_D1.jar</URL>
 			<Size>925253</Size>
 			<Required>false</Required>
@@ -112,22 +112,6 @@
 				<authors>rich1051414</authors>
 			</Meta>
 		</Module>
-		<!--
-		<Module name="In-Game wiki Mod" id="IGWMod" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/optional/IGW-Mod-1.7.10-1.1.3-18-universal.jar</URL>
-			<Size>278794</Size>
-			<Required>false</Required>
-			<ModType>Regular</ModType>
-			<MD5>88958172b7f55c534ba566d6ad86393f</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Mod that allows for mods to add in-game documentation.</description>
-				<version>1.1.3-18</version>
-				<url>www.minemaarten.com</url>
-				<authors>MineMaarten</authors>
-			</Meta>
-		</Module>
-		-->
 		<Module name="InGame Info XML" id="InGameInfoXML" depends="LunatriusCore" side="CLIENT">
 			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/InGameInfoXML-1.7.10-2.8.1.80-universal.jar</URL>
 			<Size>328302</Size>
@@ -143,7 +127,7 @@
 			</Meta>
 		</Module>
 		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
-			<URL priority="0">http://minecraft.curseforge.com/projects/journeymap-32274/files/2283867/download</URL>
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/journeymap/download/2367915/file</URL>
 			<Size>1734339</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -366,7 +350,7 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
     </Module>
     <Module name="Just Enough Items" id="JEI" depends="" side="BOTH">
       <Required isDefault='true'>false</Required>
-			<URL priority="0">https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2344374/download</URL>
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/jei/download/2428966/file</URL>
 			<Size>401066</Size>
 			<ModType>Regular</ModType>
 			<MD5>cecbedbdc52544b8f144278eb2c33731</MD5>
