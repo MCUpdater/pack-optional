@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<!-- TEST MC 1.7.10 -->
+	<Server id="optional_test_1_7" name="MCU-Optional Test 1.7"
+		abstract="false" newsUrl="about:blank" generateList="true"
+		version="1.7.10" mainClass="net.minecraft.launchwrapper.Launch"
+		revision="1802.21">
+
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.10&amp;forge=10.13.4.1558">forge</Import>
+		<Module name="Minecraft Forge" id="forge-10.13.4.1558" depends="" side="BOTH">
+			<Size>3014625</Size>
+			<!-- <MD5>e69118167ebc00750f7cdc0a92603d64</MD5> -->
+			<Required>true</Required>
+			<ModType order="1">Override</ModType>
+			<Meta>
+				<version>10.13.4.1558</version>
+				<description>Forge is kind of important.</description>
+			</Meta>
+		</Module>
+
+		<Import url="http://files.mcupdater.com/optional/ServerPack.xml">optional</Import>
+	</Server>
+
+	<!-- TEST MC 1.10.2 -->
+	<Server id="optional_test_1_10" name="MCU-Optional Test 1.10"
+		abstract="false" newsUrl="about:blank" generateList="true"
+		version="1.10.2" mainClass="net.minecraft.launchwrapper.Launch"
+		revision="1802.21">
+
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.10.2&amp;forge=12.18.3.2185">forge</Import>
+		<Module name="Minecraft Forge" id="forge-12.18.3.2185" depends="" side="BOTH">
+			<Size>4269065</Size>
+			<!-- <MD5>b3ea63dee1745f197f2ba12dd8ff8887</MD5> -->
+			<Required>true</Required>
+			<ModType order="1">Override</ModType>
+			<Meta>
+				<version>12.18.3.2185</version>
+				<description>Forge is kind of important.</description>
+			</Meta>
+		</Module>
+
+		<Import url="http://files.mcupdater.com/optional/ServerPack.xml">optional</Import>
+	</Server>
+	
+	<!-- TEST MC 1.12.2 -->
+	<Server id="optional_test_1_12" name="MCU-Optional Test 1.12"
+		abstract="false" newsUrl="about:blank" generateList="true"
+		version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla"
+		revision="1802.21">
+
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.2.2611">forge</Import>
+		<Module name="Minecraft Forge" id="forge-14.23.2.2611" depends="" side="BOTH">
+			<Size>4723046</Size>
+			<!-- <MD5>8e4cd927a804abab5c48ecedaa2834cd</MD5> -->
+			<Required>true</Required>
+			<ModType order="1">Override</ModType>
+			<Meta>
+				<version>14.23.2.2611</version>
+				<description>Forge is kind of important.</description>
+			</Meta>
+		</Module>
+
+		<Import url="http://files.mcupdater.com/optional/ServerPack.xml">optional</Import>
+	</Server>
+</ServerPack>
