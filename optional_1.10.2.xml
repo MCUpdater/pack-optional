@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="optional" name="Optional Client-only includes Modpack" newsUrl="about:blank" version="1.10.2" mainClass="net.minecraft.launchwrapper.Launch" revision="1" autoConnect="true">
+		<Module name="Better Foliage" id="BetterFoliage" depends="" side="BOTH">
+			<URL priority="0">http://minecraft.curseforge.com/projects/better-foliage/files/2311130/download</URL>
+			<Size>1626076</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>89b7101b5ff0c5bf78d68b60fc2f14cf</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Leafier leaves and grassier grass</description>
+				<version>2.0.13</version>
+				<url></url>
+				<authors>octarine-noise (code), Meringue (textures)</authors>
+			</Meta>
+		</Module>
+		<Module name="InGame Info XML" id="InGameInfoXML" depends="LunatriusCore" side="BOTH">
+			<URL priority="0">http://minecraft.curseforge.com/projects/better-foliage/files/2311130/download</URL>
+			<Size>302951</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>61c449c5493cc6d6aadea4c0d414c859</MD5>
+			<Meta>
+				<credits>DaftPVF, bspkrs</credits>
+				<description>Display extra information on top of your ingame screen.</description>
+				<version>2.8.1.85</version>
+				<url>http://mc.lunatri.us/</url>
+				<authors>Lunatrius</authors>
+			</Meta>
+		</Module>
+		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
+			<URL priority="0">http://minecraft.curseforge.com/projects/journeymap-32274/files/2311898/download</URL>
+			<Size>1797006</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c782fe7ce43b3a55f256fbde301eeeef</MD5>
+			<Meta>
+				<credits></credits>
+				<description>JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.9.4-1.2. Built: 2016-06-30-01:09:28.</description>
+				<version>1.10.2-5.2.4</version>
+				<url>http://journeymap.info</url>
+				<authors>techbrew, mysticdrew</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="JEI" depends="" side="BOTH">
+			<URL priority="0">http://minecraft.curseforge.com/projects/just-enough-items-jei/files/2313647/download</URL>
+			<Size>321713</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>60cbb13dfb331d69c113e4c91e31126f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>3.7.4.224</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Resources" id="jeresources" depends="JEI" side="BOTH">
+			<URL priority="0">http://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2312231/download</URL>
+			<Size>203756</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4d1d4c156b77cd434f39e97ff28ff8a5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds Resources and Mob Drops to JEI</description>
+				<version></version>
+				<url></url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="LunatriusCore" id="LunatriusCore" depends="" side="BOTH">
+			<URL priority="0">http://minecraft.curseforge.com/projects/lunatriuscore/files/2312804/download</URL>
+			<Size>78620</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8cb69cb3cd7af030ef9a6ad752e2a507</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A collection of utilities for Lunatrius&apos; mods.</description>
+				<version>1.1.2.36</version>
+				<url>http://mc.lunatri.us/</url>
+				<authors>Lunatrius</authors>
+			</Meta>
+		</Module>
+		<Module name="OptiFine_1.10.2_HD_U_C2" id="OptiFine_.._HD_U_C" depends="" side="BOTH">
+			<URL priority="0">http://optifine.net/adloadx?f=OptiFine_1.10.2_HD_U_C2.jar</URL>
+			<Size>1757438</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f7c2a9b052a750aa4e3551125c7d216</MD5>
+		</Module>
+		<Module name="Waila" id="Waila" depends="" side="BOTH">
+			<URL priority="0">http://minecraft.curseforge.com/projects/waila/files/2301859/download</URL>
+			<Size>544490</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ad5733255dac0b85b9bbe38749638060</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.7.0-B3</version>
+				<url></url>
+				<authors>ProfMobius</authors>
+			</Meta>
+		</Module>
+		<Module name="Waila Harvestability" id="WailaHarvestability" depends="Waila" side="BOTH">
+			<URL priority="0">http://minecraft.curseforge.com/projects/waila-harvestability/files/2310935/download</URL>
+			<Size>27896</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f009d089845a4aa835f5d28d3111db93</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An add-on for Waila that adds information about the harvestability of what you are looking at</description>
+				<version>1.1.7</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
+			<URL priority="0">http://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2310234/download</URL>
+			<Size>74046</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cee333c9d23c70c15d66001370290708</MD5>
+			<Meta>
+				<credits>ProfMobius for making the Waila mod.</credits>
+				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
+				<version>1.10-2.3.0.193</version>
+				<url>http://www.darkhax.net/wawla.html</url>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
