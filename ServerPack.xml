@@ -17,14 +17,14 @@
 				<authors>Player</authors>
 			</Meta>
 		</Module>
-		<Module name='Optifine Ultra D1' id='optifine' depends='' side='CLIENT'>
+		<Module name='Optifine Ultra D1' id='optifine_ultra' depends='' side='CLIENT'>
 			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.7/OptiFine_1.7.10_HD_U_D1.jar</URL>
 			<Size>951431</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>57c724fe8335c82aef8d54c101043e60</MD5>
 		</Module>
-		<Module name='Optifine Standard D1' id='optifine' depends='' side='CLIENT'>
+		<Module name='Optifine Standard D1' id='optifine_standard' depends='' side='CLIENT'>
 			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.7/OptiFine_1.7.10_HD_D1.jar</URL>
 			<Size>925253</Size>
 			<Required>false</Required>
