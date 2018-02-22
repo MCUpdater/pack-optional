@@ -572,28 +572,14 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		<!-- Optifine -->
-		<!-- Fastcraft -->
+		
+		<Module name="OptiFine [ultra]" id="optifine" depends="" side="CLIENT">
+			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.12/OptiFine_1.12.2_HD_U_C9.jar</URL>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>3f3d4e04f0abe548009535e6ad094adb</MD5>
+			<Size>2334134</Size>
+		</Module>
 		
 	</Server>
 </ServerPack>
-
-<!--
-
-		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
-			<Curse project="journeymap" file="2498312" />
-			<Required>false</Required>
-			<ModType>Regular</ModType>
-		</Module>
-
-		
-<Module name="" id="" depends="" side="CLIENT">
-	<Curse project="" file="" />
-	<Required>false</Required>
-	<ModType>Regular</ModType>
-	<MD5></MD5>
-	<Size></Size>
-</Module>
-
-<Required isDefault="true">false</Required>
--->
