@@ -517,4 +517,83 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			</Meta>
 		</Module>
 	</Server>
+
+<!-- ########## MC 1.12 ########## -->
+
+	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1802.21" abstract="true">
+		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
+			<Curse project="appleskin" file="2496585" />
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+		</Module>
+
+		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
+			<Curse project="journeymap" file="2498312" />
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		
+		<Module name="JEI" id="jei" depends="" side="CLIENT">
+			<Curse project="jei" file="2522813" />
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		
+		<Module name="JER - Just Enough Resources" id="jer" depends="jei" side="CLIENT">
+			<Curse project="just-enough-resources-jer" file="2497186" />
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		
+		<!-- Keybind, etc... -->
+		
+		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
+			<Curse project="controlling" file="2522248" />
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		
+		<Module name="Inventory Tweaks" id="inventory-tweaks" depends="" side="CLIENT">
+			<Curse project="inventory-tweaks" file="2482481" />
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		
+		<Module name="Mouse Tweaks" id="mouse-tweaks" depends="" side="CLIENT">
+			<Curse project="mouse-tweaks" file="2462627" />
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		
+		<!-- Performance Tweaks -->
+		
+		<Module name="BetterFPS [beta]" id="betterfps" depends="" side="CLIENT">
+			<Curse project="betterfps" file="2483393" />
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		<!-- Optifine -->
+		<!-- Fastcraft -->
+		
+	</Server>
 </ServerPack>
+
+<!--
+
+		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
+			<Curse project="journeymap" file="2498312" />
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+		</Module>
+
+		
+<Module name="" id="" depends="" side="CLIENT">
+	<Curse project="" file="" />
+	<Required>false</Required>
+	<ModType>Regular</ModType>
+	<MD5></MD5>
+	<Size></Size>
+</Module>
+
+<Required isDefault="true">false</Required>
+-->
