@@ -3,7 +3,7 @@
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="optional" name="Optional Client-only includes" version="1.7.10" abstract="true">
 		<Module name='Fastcraft' id='fastcraft' depends='' side='CLIENT'>
-			<URL priority='0'>http://files.mcupdater.com/optional/fastcraft-1.21.jar</URL>
+			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.7/fastcraft-1.21.jar</URL>
 			<URL priority='1'>http://files.player.to/fastcraft-1.21.jar</URL>
 			<Size>116959</Size>
 			<Required>false</Required>
@@ -18,14 +18,14 @@
 			</Meta>
 		</Module>
 		<Module name='Optifine Ultra D1' id='optifine_ultimate' depends='' side='CLIENT'>
-			<URL priority='0'>http://files.mcupdater.com/optional/OptiFine_1.7.10_HD_U_D1.jar</URL>
+			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.7/OptiFine_1.7.10_HD_U_D1.jar</URL>
 			<Size>951431</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>57c724fe8335c82aef8d54c101043e60</MD5>
 		</Module>
 		<Module name='Optifine Standard D1' id='optifine_standard' depends='' side='CLIENT'>
-			<URL priority='0'>http://files.mcupdater.com/optional/OptiFine_1.7.10_HD_D1.jar</URL>
+			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.7/OptiFine_1.7.10_HD_D1.jar</URL>
 			<Size>925253</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -33,7 +33,7 @@
 		</Module>
 		<Module name='Inventory Tweaks' id='invtweaks' depends='' side='CLIENT'>
 			<URL priority='0'>http://build.technicpack.net/job/Inventory-Tweaks/147/artifact/build/libs/InventoryTweaks-1.58-147.jar</URL>
-			<URL priority='1'>http://files.mcupdater.com/optional/InventoryTweaks-1.58-147.jar</URL>
+			<URL priority='1'>http://files.mcupdater.com/optional/mods/1.7/InventoryTweaks-1.58-147.jar</URL>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>c5d9271ea4afb47deae8c71f8bae61a1</MD5>
@@ -41,14 +41,14 @@
 		</Module>
 		<Module name='AquaTweaks' id='aquatweaks' side='CLIENT'>
 			<URL priority='0'>http://minecraft.curseforge.com/mc-mods/231659-aquatweaks/files/2243845/download</URL>
-			<URL priority='1'>http://files.mcupdater.com/optional/AquaTweaks-1.7.10-1.0.jar</URL>
+			<URL priority='1'>http://files.mcupdater.com/optional/mods/1.7/AquaTweaks-1.7.10-1.0.jar</URL>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>fb5c63447ce906f344c909a22c4a3f64</MD5>
 			<Size>26100</Size>
 		</Module>
 		<Module name="ArmorStatusHUD" id="ArmorStatusHUD" depends="bspkrsCore" side="CLIENT">
-			<URL priority="0">http://files.mcupdater.com/optional/[1.7.10]ArmorStatusHUD-client-1.28.jar</URL>
+			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/[1.7.10]ArmorStatusHUD-client-1.28.jar</URL>
 			<Size>27281</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
@@ -63,14 +63,14 @@
 		</Module>
 		<Module name="BetterFoliage" id="betterfoliage" depends="" side="CLIENT">
 			<URL priority="0">http://minecraft.curseforge.com/mc-mods/228529-better-foliage/files/2239969/download</URL>
-			<URL priority="1">http://files.mcupdater.com/optional/BetterFoliage-1.0.13.jar</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.7/BetterFoliage-1.0.13.jar</URL>
 			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>bbc0592512759fe86de1cc804da37bcf</MD5>
 			<Size>363265</Size>
 		</Module>
 		<Module name="bspkrsCore" id="bspkrsCore" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/optional/[1.7.10]bspkrsCore-universal-6.16.jar</URL>
+			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/[1.7.10]bspkrsCore-universal-6.16.jar</URL>
 			<ModPath>mods/1.7.10/[1.7.10]bspkrsCore-universal-6.16.jar</ModPath>
 			<Size>198525</Size>
 			<Required>false</Required>
@@ -87,7 +87,7 @@
 		<Module name="CodeChicken Core" id="CodeChickenCore" depends="" side="BOTH">
 			<Required isDefault='true'>false</Required>
 			<ModType>Regular</ModType>
-			<URL priority="0">http://files.mcupdater.com/optional/CodeChickenCore-1.7.10-1.0.7.47-universal.jar</URL>
+			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/CodeChickenCore-1.7.10-1.0.7.47-universal.jar</URL>
             <Size>145782</Size>
             <MD5>07690caf86ecf79739852154f5e44750</MD5>
 			<Meta>
@@ -99,7 +99,7 @@
 			</Meta>
 		</Module>
 		<Module name="Damage Indicators" id="DamageIndicatorsMod" depends="" side="CLIENT">
-			<URL priority="0">http://files.mcupdater.com/optional/[1.7.10]DamageIndicatorsMod-3.2.3.jar</URL>
+			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/[1.7.10]DamageIndicatorsMod-3.2.3.jar</URL>
 			<Size>645760</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -112,6 +112,7 @@
 				<authors>rich1051414</authors>
 			</Meta>
 		</Module>
+		<!--
 		<Module name="In-Game wiki Mod" id="IGWMod" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/optional/IGW-Mod-1.7.10-1.1.3-18-universal.jar</URL>
 			<Size>278794</Size>
@@ -126,8 +127,9 @@
 				<authors>MineMaarten</authors>
 			</Meta>
 		</Module>
+		-->
 		<Module name="InGame Info XML" id="InGameInfoXML" depends="LunatriusCore" side="CLIENT">
-			<URL priority="0">http://files.mcupdater.com/optional/InGameInfoXML-1.7.10-2.8.1.80-universal.jar</URL>
+			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/InGameInfoXML-1.7.10-2.8.1.80-universal.jar</URL>
 			<Size>328302</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -155,7 +157,7 @@
 			</Meta>
 		</Module>
 		<Module name="LunatriusCore" id="LunatriusCore" depends="" side="CLIENT">
-			<URL priority="0">http://files.mcupdater.com/optional/LunatriusCore-1.7.10-1.1.2.21-universal.jar</URL>
+			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/LunatriusCore-1.7.10-1.1.2.21-universal.jar</URL>
 			<Size>57644</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -169,7 +171,7 @@
 			</Meta>
 		</Module>
 		<Module name="Not Enough Items" id="NEI" depends="CodeChickenCore" side="BOTH">
-            <URL priority="0">http://files.mcupdater.com/optional/NotEnoughItems-1.7.10-1.0.5.118-universal.jar</URL>
+            <URL priority="0">http://files.mcupdater.com/optional/mods/1.7/NotEnoughItems-1.7.10-1.0.5.118-universal.jar</URL>
             <Size>513018</Size>
             <MD5>8a92f6d5da71f98f09d71eadfbc588c6</MD5>
 
@@ -200,14 +202,14 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			</Submodule>
 			<Submodule name="Not Enough Resources" id="NotEnoughResources" depends="" side="CLIENT">
 				<URL priority="0">http://addons-origin.cursecdn.com/files/2269/453/NotEnoughResources-1.7.10-0.1.0-121.jar</URL>
-				<URL priority="1">http://files.mcupdater.com/optional/NotEnoughResources-1.7.10-0.1.0-121.jar</URL>
+				<URL priority="1">http://files.mcupdater.com/optional/mods/1.7/NotEnoughResources-1.7.10-0.1.0-121.jar</URL>
 				<ModType>Regular</ModType>
 				<MD5>a9bea2f12c06176376500f217f856a13</MD5>
 				<Size>225094</Size>
 			</Submodule>
 		</Module>
 		<Module name="StatusEffectHUD" id="StatusEffectHUD" depends="bspkrsCore" side="CLIENT">
-			<URL priority="0">http://files.mcupdater.com/optional/[1.7.10]StatusEffectHUD-client-1.27.jar</URL>
+			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/[1.7.10]StatusEffectHUD-client-1.27.jar</URL>
 			<Size>24785</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -221,7 +223,7 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			</Meta>
 		</Module>
 		<Module name="Waila" id="waila" depends="NEI" side="CLIENT">
-			<URL priority="0">http://files.mcupdater.com/optional/Waila-1.5.10_1.7.10.jar</URL>
+			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/Waila-1.5.10_1.7.10.jar</URL>
 			<Size>544821</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
