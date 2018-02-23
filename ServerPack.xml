@@ -555,6 +555,65 @@
 			</Meta>
 		</Module>
 
+		<Module name="InGame Info XML" id="ingame-info-xml" depends="lunatriuscore" side="CLIENT">
+			<Curse project="ingame-info-xml" file="2489566"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>02a15a0cfbffc4bc530f2bd56b0b1a6c</MD5>
+			<Meta>
+				<credits>DaftPVF, bspkrs</credits>
+				<description>Display extra information on top of your ingame screen.</description>
+				<version>2.8.2.94</version>
+				<url>http://mc.lunatri.us/</url>
+				<authors>Lunatrius</authors>
+			</Meta>
+		</Module>
+
+		<Module name="InGame Info XML Addon - Blood Magic" id="igi-bloodmagic" depends="ingame-info-xml,blood-magic" side="CLIENT">
+			<Curse project="ingame-info-xml-addon-blood-magic" file="2337562"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>832e992816bf506f0e3e9b1d0f87d6ce</MD5>
+			<Meta>
+				<description>Adds tags for Blood Magic to InGame Info XML.</description>
+				<version>1.1</version>
+				<authors>smbarbour</authors>
+			</Meta>
+		</Module>
+		<Module name="InGame Info XML Addon - Tough As Nails" id="igi-toughasnails" depends="ingame-info-xml,tough-as-nails" side="CLIENT">
+			<Curse project="in-game-info-xml-addon-tough-as-nails" file="2517111"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>d120af299337a1a1979c17338ea09e9f</MD5>
+			<Meta>
+				<description>Adds tags for Tough As Nails to InGame Info XML.</description>
+				<version>1.2</version>
+				<authors>smbarbour</authors>
+			</Meta>
+		</Module>
+		<Module name="InGame Info XML Addon - Deep Resonance" id="igi-deepresonance" depends="ingame-info-xml,deep-resonance" side="CLIENT">
+			<Curse project="ingame-info-xml-addon-deep-resonance" file="2520489"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>7550309346654d37ca062e2f50ebfd94</MD5>
+			<Meta>
+				<description>Adds tags for Deep Resonance to InGame Info XML.</description>
+				<version>1.1</version>
+				<authors>smbarbour</authors>
+			</Meta>
+		</Module>
+		<Module name="InGame Info XML Addon - RFTools Dimensions" id="igi-rftools" depends="ingame-info-xml,rftools-dimensions" side="CLIENT">
+			<Curse project="ingame-info-xml-addon-rftools-dimensions" file="2520490"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>52f5bec241e4af71ed8ee8c952676d1d</MD5>
+			<Meta>
+				<description>Adds tags for RFTools Dimensions to InGame Info XML.</description>
+				<version>1.2</version>
+				<authors>smbarbour</authors>
+			</Meta>
+		</Module>
+
 		<Module name="JEI - Just Enough Items" id="jei" depends="" side="CLIENT">
 			<Curse project="jei" file="2522813"/>
 			<Required isDefault="true">false</Required>
@@ -677,6 +736,20 @@
 				<description>FPS Boost, Dynamic Lights, Shaders, etc...</description>
 				<version>Ultra C9</version>
 				<authors>sp614x</authors>
+			</Meta>
+		</Module>
+
+		<!-- Libraries -->
+
+		<Module name="Lunatrius Core" id="lunatriuscore" depends="" side="CLIENT">
+			<Curse project="lunatriuscore" file=""/>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>0dae43ef5376822db0399ad254207aa3</MD5>
+			<Meta>
+				<description>Library required for Lunatrius' mods.</description>
+				<version>1.2.0.42</version>
+				<authors>Lunatrius</authors>
 			</Meta>
 		</Module>
 
