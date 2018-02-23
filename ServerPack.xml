@@ -515,17 +515,17 @@
 	</Server>
 
 	<!-- ########## MC 1.12 ########## -->
-
 	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1802.21" abstract="true">
-		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
-			<Curse project="appleskin" file="2496585"/>
-			<Required isDefault="true">false</Required>
+
+		<Module name="Better Foliage" id="betterfoliage" depends="" side="CLIENT">
+			<Curse project="better-foliage" file="2478147"/>
+			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
+			<MD5>06714eb2c13f59df5e3c92cec7370e11</MD5>
 			<Meta>
-				<description>Adds various food-related HUD improvements.</description>
-				<version>1.0.9</version>
-				<authors>squeek</authors>
+				<description>Leafier leaves and grassier grass.</description>
+				<version>2.1.10</version>
+				<authors>octarine-noise (code), Meringue (textures)</authors>
 			</Meta>
 		</Module>
 
@@ -541,7 +541,21 @@
 			</Meta>
 		</Module>
 
-		<Module name="JEI" id="jei" depends="" side="CLIENT">
+		<!-- Information overlays -->
+
+		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
+			<Curse project="appleskin" file="2496585"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
+			<Meta>
+				<description>Adds various food-related HUD improvements.</description>
+				<version>1.0.9</version>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+
+		<Module name="JEI - Just Enough Items" id="jei" depends="" side="CLIENT">
 			<Curse project="jei" file="2522813"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
@@ -562,6 +576,18 @@
 				<description>Adds Resources and Mob Drops to JEI.</description>
 				<version>0.8.5.27</version>
 				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+
+		<Module name="HWYLA - Here's What You're Looking At" id="hwlya" depends="" side="CLIENT">
+			<Curse project="hwyla" file="2506337"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>15cdac034d184e7636d48bfcc3dee25b</MD5>
+			<Meta>
+				<description>A (100% compatible) fork of WAILA by ProfMobius.</description>
+				<version>1.8.23-B38</version>
+				<authors>TehNut</authors>
 			</Meta>
 		</Module>
 
