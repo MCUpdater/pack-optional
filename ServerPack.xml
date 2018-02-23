@@ -521,60 +521,113 @@
 			<Curse project="appleskin" file="2496585"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
+			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
+			<Meta>
+				<description>Adds various food-related HUD improvements.</description>
+				<version>1.0.9</version>
+				<authors>squeek</authors>
+			</Meta>
 		</Module>
 
 		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
 			<Curse project="journeymap" file="2498312"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
+			<MD5>b743562dac1b5334c20ac87b54c0b518</MD5>
+			<Meta>
+				<description>Real-time map in-game or in a web browser as you explore.</description>
+				<version>5.5.2</version>
+				<authors>techbrew</authors>
+			</Meta>
 		</Module>
 
 		<Module name="JEI" id="jei" depends="" side="CLIENT">
 			<Curse project="jei" file="2522813"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
+			<MD5>e556b45af65f954b53e776a138826067</MD5>
+			<Meta>
+				<description>Simple recipe and item helper.</description>
+				<version>4.8.5.147</version>
+				<authors>mezz</authors>
+			</Meta>
 		</Module>
 
 		<Module name="JER - Just Enough Resources" id="jer" depends="jei" side="CLIENT">
 			<Curse project="just-enough-resources-jer" file="2497186"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
+			<MD5>27533ed3008d56108ea637195e485c33</MD5>
+			<Meta>
+				<description>Adds Resources and Mob Drops to JEI.</description>
+				<version>0.8.5.27</version>
+				<authors>way2muchnoise</authors>
+			</Meta>
 		</Module>
 
 		<!-- Keybind, etc... -->
 
 		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
 			<Curse project="controlling" file="2522248"/>
-			<Required isDefault="true">false</Required>
+			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
+			<MD5>0d9a0429c72bc1c06358f1166bdd8c59</MD5>
+			<Meta>
+				<description>Adds a search bar to the Key-Bindings menu.</description>
+				<version>3.0.6</version>
+				<authors>jaredlll08</authors>
+			</Meta>
 		</Module>
 
 		<Module name="Inventory Tweaks" id="inventory-tweaks" depends="" side="CLIENT">
 			<Curse project="inventory-tweaks" file="2482481"/>
-			<Required>false</Required>
+			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
+			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
+			<Meta>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
+				<version>1.63</version>
+				<authors>Jimeo Wan, Kobata</authors>
+			</Meta>
 		</Module>
 
 		<Module name="Mouse Tweaks" id="mouse-tweaks" depends="" side="CLIENT">
 			<Curse project="mouse-tweaks" file="2462627"/>
-			<Required>false</Required>
+			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
+			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
+			<Meta>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
+				<version>2.8</version>
+				<authors>YaLTeR</authors>
+			</Meta>
 		</Module>
 
 		<!-- Performance Tweaks -->
 
 		<Module name="BetterFPS [beta]" id="betterfps" depends="" side="CLIENT">
 			<Curse project="betterfps" file="2483393"/>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
+			<MD5>d36f4d3c0f96e99a9a1ad2e8eeda1fc4</MD5>
+			<Meta>
+				<description>BetterFps is a Minecraft mod that add a few performance improvements, trying to be compatible with other mods.</description>
+				<version>1.4.8</version>
+				<authors>Guichaguri</authors>
+			</Meta>
 		</Module>
 
 		<Module name="OptiFine [ultra]" id="optifine" depends="" side="CLIENT">
 			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.12/OptiFine_1.12.2_HD_U_C9.jar</URL>
-			<Required>false</Required>
+			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>3f3d4e04f0abe548009535e6ad094adb</MD5>
 			<Size>2334134</Size>
+			<Meta>
+				<description>FPS Boost, Dynamic Lights, Shaders, etc...</description>
+				<version>Ultra C9</version>
+				<authors>sp614x</authors>
+			</Meta>
 		</Module>
 
 	</Server>
