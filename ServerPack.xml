@@ -591,6 +591,30 @@
 			</Meta>
 		</Module>
 
+		<Module name="Waila Harvestability" id="waila-harvestability" depends="hwlya" side="CLIENT">
+			<Curse project="waila-harvestability" file="2481605"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>0bd8765ff3064be336cb1b09208e410c</MD5>
+			<Meta>
+				<description>An add-on for Waila or Hwyla that adds information about the harvestability of what you are looking at.</description>
+				<version>1.1.12</version>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+
+		<Module name="WAWLA - What are We Looking At" id="wawla" depends="hwlya" side="CLIENT">
+			<Curse project="wawla-what-are-we-looking-at" file="2528850"/>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>0ef04dcd9c04e877d5f77da71666e179</MD5>
+			<Meta>
+				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
+				<version>2.5.251</version>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+
 		<!-- Keybind, etc... -->
 
 		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
