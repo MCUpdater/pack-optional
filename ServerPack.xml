@@ -88,8 +88,8 @@
 			<Required isDefault='true'>false</Required>
 			<ModType>Regular</ModType>
 			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/CodeChickenCore-1.7.10-1.0.7.47-universal.jar</URL>
-            <Size>145782</Size>
-            <MD5>07690caf86ecf79739852154f5e44750</MD5>
+			<Size>145782</Size>
+			<MD5>07690caf86ecf79739852154f5e44750</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Base common code for all chickenbones mods.</description>
@@ -155,19 +155,15 @@
 			</Meta>
 		</Module>
 		<Module name="Not Enough Items" id="NEI" depends="CodeChickenCore" side="BOTH">
-            <URL priority="0">http://files.mcupdater.com/optional/mods/1.7/NotEnoughItems-1.7.10-1.0.5.118-universal.jar</URL>
-            <Size>513018</Size>
-            <MD5>8a92f6d5da71f98f09d71eadfbc588c6</MD5>
+			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/NotEnoughItems-1.7.10-1.0.5.118-universal.jar</URL>
+			<Size>513018</Size>
+			<MD5>8a92f6d5da71f98f09d71eadfbc588c6</MD5>
 
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<Meta>
 				<credits>Alexandria - original idea</credits>
-				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.
-
-&lt;plugins&gt;
-
-Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Donut</description>
+				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more. &lt;plugins&gt; Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Donut</description>
 				<version>1.0.5.118</version>
 				<url>http://www.minecraftforum.net/topic/909223</url>
 				<authors>ChickenBones</authors>
@@ -222,48 +218,48 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 		</Module>
 	</Server>
 
-<!-- ########## MC 1.10 ########## -->
+	<!-- ########## MC 1.10 ########## -->
 
 	<Server id="optional" name="Optional Client-only includes" version="1.10.2" revision="1610.06" abstract="true">
-    <Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
-      <URL priority="0">https://minecraft.curseforge.com/projects/appleskin/files/2330062/download</URL>
-      <URL priority="1">http://files.mcupdater.com/optional/mods/1.10/AppleSkin-mc1.10.2-1.0.4.jar</URL>
-      <Size>29179</Size>
-      <Required isDefault='true'>false</Required>
-      <ModType>Regular</ModType>
-      <MD5>682d5bb9795be7cb7d86445610b514ea</MD5>
-      <Meta>
-        <credits></credits>
-        <description>Adds various food-related HUD improvements</description>
-        <version>1.0.4</version>
-        <url></url>
-        <authors>squeek</authors>
-      </Meta>
-    </Module>
-    <Module name="Better Achievements" id="BetterAchievements" depends="" side="CLIENT">
-      <!-- NOTE: Works fine on server, but doesn't add anything we care about. -->
-      <URL priority="0">https://minecraft.curseforge.com/projects/betterachievements/files/2317312/download</URL>
-      <URL priority="1">http://files.mcupdater.com/optional/mods/1.10/BetterAchievements-1.10.2-0.3.1.32.jar</URL>
-      <Size>57169</Size>
-      <Required isDefault='false'>false</Required>
-      <ModType>Regular</ModType>
-      <MD5>bb9bd14c0b47e61023ead14a621acf59</MD5>
-      <Meta>
-        <credits>Authored by way2muchnoise</credits>
-        <description>An improvement to the Achievementscreen</description>
-        <version>0.3.1</version>
-        <url>https://github.com/way2muchnoise/BetterAchievements</url>
-        <authors>way2muchnoise</authors>
-      </Meta>
-    </Module>
-    <Module name="Controlling" id="Controlling" depends="" side="CLIENT">
-    <URL priority="0">https://minecraft.curseforge.com/projects/controlling/files/2326858/download</URL>
-    <URL priority="1">http://files.mcupdater.com/optional/mods/1.10/Controlling-1.0.0.jar</URL>
-    <Size>17611</Size>
-    <Required isDefault="true">false</Required>
-    <ModType>Regular</ModType>
-    <MD5>c858c065c5cfa97fd6b2c3c8adbfcc16</MD5>
-  </Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/appleskin/files/2330062/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/AppleSkin-mc1.10.2-1.0.4.jar</URL>
+			<Size>29179</Size>
+			<Required isDefault='true'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>682d5bb9795be7cb7d86445610b514ea</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds various food-related HUD improvements</description>
+				<version>1.0.4</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Achievements" id="BetterAchievements" depends="" side="CLIENT">
+			<!-- NOTE: Works fine on server, but doesn't add anything we care about. -->
+			<URL priority="0">https://minecraft.curseforge.com/projects/betterachievements/files/2317312/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/BetterAchievements-1.10.2-0.3.1.32.jar</URL>
+			<Size>57169</Size>
+			<Required isDefault='false'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>bb9bd14c0b47e61023ead14a621acf59</MD5>
+			<Meta>
+				<credits>Authored by way2muchnoise</credits>
+				<description>An improvement to the Achievementscreen</description>
+				<version>0.3.1</version>
+				<url>https://github.com/way2muchnoise/BetterAchievements</url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="Controlling" id="Controlling" depends="" side="CLIENT">
+			<URL priority="0">https://minecraft.curseforge.com/projects/controlling/files/2326858/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/Controlling-1.0.0.jar</URL>
+			<Size>17611</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>c858c065c5cfa97fd6b2c3c8adbfcc16</MD5>
+		</Module>
 		<Module name="Better Foliage" id="BetterFoliage" depends="" side="CLIENT">
 			<URL priority="0">http://minecraft.curseforge.com/projects/better-foliage/files/2311130/download</URL>
 			<Size>1626076</Size>
@@ -278,14 +274,14 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 				<authors>octarine-noise (code), Meringue (textures)</authors>
 			</Meta>
 		</Module>
-			<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
-       			<URL priority="0">https://minecraft.curseforge.com/projects/crafting-tweaks/files/2332562/download</URL>
-       			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/CraftingTweaks_1.10.2-6.1.16.jar</URL>
-       			<Required isDefault="false">false</Required>
-       			<ModType>Regular</ModType>
-       			<MD5>13486f1cc663e47c9e040bd715401111</MD5>
-       			<Size>88019</Size>
-       		</Module>
+		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/crafting-tweaks/files/2332562/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/CraftingTweaks_1.10.2-6.1.16.jar</URL>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>13486f1cc663e47c9e040bd715401111</MD5>
+			<Size>88019</Size>
+		</Module>
 		<Module name="InGame Info XML" id="InGameInfoXML" depends="LunatriusCore" side="CLIENT">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ingame-info-xml/files/2333481/download</URL>
 			<Size>0</Size>
@@ -319,12 +315,12 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<MD5>4d12ded6bb5c7140cb2aab0d00779592</MD5>
 		</Module>
 		<Module name="Inventory Tweaks [alpha]" id="invtweaks" depends="" side="CLIENT">
-       		<URL priority="0">https://minecraft.curseforge.com/projects/inventory-tweaks/files/2338989/download</URL>
-       		<!--<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/InventoryTweaks-1.62-dev-64.jar</URL>-->
-       		<Required isDefault="true">false</Required>
-       		<ModType>Regular</ModType>
-       		<MD5>e610e4e001a7dac86b5563c2bbf9610b</MD5>
-       		<Size>231891</Size>
+			<URL priority="0">https://minecraft.curseforge.com/projects/inventory-tweaks/files/2338989/download</URL>
+			<!--<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/InventoryTweaks-1.62-dev-64.jar</URL>-->
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>e610e4e001a7dac86b5563c2bbf9610b</MD5>
+			<Size>231891</Size>
 			<Meta>
 				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
 				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
@@ -332,24 +328,24 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 				<url>https://minecraft.curseforge.com/projects/inventory-tweaks</url>
 				<authors>Jimeo Wan, Kobata</authors>
 			</Meta>
-       	</Module>
-    <Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
-      <URL priority="0">https://minecraft.curseforge.com/projects/journeymap-32274/files/2311898/download</URL>
-      <URL priority="1">http://files.mcupdater.com/optional/mods/1.10/journeymap-1.10.2-5.2.4-unlimited.jar</URL>
-      <Size>1797006</Size>
-      <Required isDefault='true'>false</Required>
-      <ModType>Regular</ModType>
-      <MD5>c782fe7ce43b3a55f256fbde301eeeef</MD5>
-      <Meta>
-        <credits></credits>
-        <description>JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.9.4-1.2. Built: 2016-06-30-01:09:28.</description>
-        <version>1.10.2-5.2.4</version>
-        <url>http://journeymap.info</url>
-        <authors>techbrew, mysticdrew</authors>
-      </Meta>
-    </Module>
-    <Module name="Just Enough Items" id="JEI" depends="" side="BOTH">
-      <Required isDefault='true'>false</Required>
+		</Module>
+		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/journeymap-32274/files/2311898/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/journeymap-1.10.2-5.2.4-unlimited.jar</URL>
+			<Size>1797006</Size>
+			<Required isDefault='true'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>c782fe7ce43b3a55f256fbde301eeeef</MD5>
+			<Meta>
+				<credits></credits>
+				<description>JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.9.4-1.2. Built: 2016-06-30-01:09:28.</description>
+				<version>1.10.2-5.2.4</version>
+				<url>http://journeymap.info</url>
+				<authors>techbrew, mysticdrew</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="JEI" depends="" side="BOTH">
+			<Required isDefault='true'>false</Required>
 			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/jei/download/2428966/file</URL>
 			<Size>401066</Size>
 			<ModType>Regular</ModType>
@@ -361,38 +357,38 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
 			</Meta>
-    </Module>
-    <Module name="Just Enough Resources" id="jeresources" depends="" side="BOTH">
-      <URL priority="0">https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2331291/download</URL>
-      <URL priority="1">http://files.mcupdater.com/optional/mods/1.10/JustEnoughResources-1.10.2-0.5.1.56.jar</URL>
-      <Size>203650</Size>
-      <Required isDefault='false'>false</Required>
-      <ModType>Regular</ModType>
-      <MD5>996890bcd4066b1c3f0bb5bfe7722fae</MD5>
-      <Meta>
-        <credits></credits>
-        <description>Adds Resources and Mob Drops to JEI</description>
-        <version>0.5.1</version>
-        <url></url>
-        <authors>way2muchnoise</authors>
-      </Meta>
-    </Module>
-    <Module name="JEI Bees" id="jeibees" depends="JEI forestry" side="BOTH">
-      <URL priority="0">https://minecraft.curseforge.com/projects/jei-bees/files/2330116/download</URL>
-      <URL priority="1">http://files.mcupdater.com/optional/mods/1.10/jeibees-0.9.0.2-mc1.10.2.jar</URL>
-      <Size>109098</Size>
-      <!-- NB: This mod is required if installed on the server -->
-      <Required isDefault='false'>false</Required>
-      <ModType>Regular</ModType>
-      <MD5>6f0e5e3fbee455615775b230fa070d0d</MD5>
-      <Meta>
-        <credits></credits>
-        <description></description>
-        <version>0.9.0.2</version>
-        <url>http://bdew.net/</url>
-        <authors>bdew</authors>
-      </Meta>
-    </Module>
+		</Module>
+		<Module name="Just Enough Resources" id="jeresources" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2331291/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/JustEnoughResources-1.10.2-0.5.1.56.jar</URL>
+			<Size>203650</Size>
+			<Required isDefault='false'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>996890bcd4066b1c3f0bb5bfe7722fae</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds Resources and Mob Drops to JEI</description>
+				<version>0.5.1</version>
+				<url></url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="JEI Bees" id="jeibees" depends="JEI forestry" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/jei-bees/files/2330116/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/jeibees-0.9.0.2-mc1.10.2.jar</URL>
+			<Size>109098</Size>
+			<!-- NB: This mod is required if installed on the server -->
+			<Required isDefault='false'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>6f0e5e3fbee455615775b230fa070d0d</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>0.9.0.2</version>
+				<url>http://bdew.net/</url>
+				<authors>bdew</authors>
+			</Meta>
+		</Module>
 		<Module name="LunatriusCore" id="LunatriusCore" depends="" side="CLIENT">
 			<URL priority="0">http://minecraft.curseforge.com/projects/lunatriuscore/files/2312804/download</URL>
 			<Size>78620</Size>
@@ -407,59 +403,59 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 				<authors>Lunatrius</authors>
 			</Meta>
 		</Module>
-    <Module name="Mod Name Tooltip" id="ModNameTooltip" depends="" side="CLIENT">
-      <URL priority="0">https://minecraft.curseforge.com/projects/mod-name-tooltip/files/2312708/download</URL>
-      <URL priority="1">http://files.mcupdater.com/optional/mods/1.10/modnametooltip_1.10.2-1.6.0.jar</URL>
-      <Size>4150</Size>
-      <Required isDefault="true">false</Required>
-      <ModType>Regular</ModType>
-      <MD5>2727d8078bd2c3879019ece5c2a23622</MD5>
-      <Meta>
-        <credits></credits>
-        <description>Show the ItemStack&apos;s mod on its tooltip.</description>
-        <version>1.6.0</version>
-        <url>https://github.com/mezz/ModNameTooltip</url>
-        <authors>mezz</authors>
-      </Meta>
-    </Module>
-    <Module name="Mouse Tweaks" id="mousetweaks" depends="" side="CLIENT">
-      <URL priority="0">https://minecraft.curseforge.com/projects/mouse-tweaks/files/2321022/download</URL>
-      <URL priority="1">http://files.mcupdater.com/optional/mods/1.10/MouseTweaks-2.6.4-mc1.10.2.jar</URL>
-      <Size>55753</Size>
-      <Required isDefault='true'>false</Required>
-      <ModType>Regular</ModType>
-      <MD5>6c23b8f7a876336dbab417721ee44137</MD5>
-      <Meta>
-        <credits>Various open-source mods from where I learned.</credits>
-        <description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
-        <version>2.6.4</version>
-        <url>http://www.minecraftforum.net/topic/1518185-</url>
-        <authors>YaLTeR</authors>
-      </Meta>
-    </Module>
-                <Module name="More Overlays" id="moreoverlays" depends="" side="CLIENT">
-                        <URL priority="0">https://minecraft.curseforge.com/projects/more-overlays/files/2332109/download</URL>
-                        <URL priority="1">http://files.mcupdater.com/optional/mods/1.10/moreoverlays-1.8-mc1.10.2.jar</URL>
-                        <Required isDefault="false">false</Required>
-                        <ModType>Regular</ModType>
-                        <MD5>a61ed4f5235093444faf64ffe2691671</MD5>
-                        <Size>34379</Size>
-                </Module>
-    <Module name="No Nausea" id="NoNausea" depends="" side="CLIENT">
-      <URL priority="0">https://minecraft.curseforge.com/projects/nonausea/files/2301414/download</URL>
-      <URL priority="1">http://files.mcupdater.com/optional/mods/1.10/NoNausea-MC1.9.4-1.0.jar</URL>
-      <Size>9469</Size>
-      <Required isDefault='true'>false</Required>
-      <ModType>Regular</ModType>
-      <MD5>5082cb435bc1c826d4af1904a4fc9a13</MD5>
-      <Meta>
-        <credits></credits>
-        <description>Reaplces the vanilla nausea effect with something less headache inducing.</description>
-        <version>1.0</version>
-        <url>http://minecraft.curseforge.com/mc-mods/226035-nonausea</url>
-        <authors>lumien</authors>
-      </Meta>
-    </Module>
+		<Module name="Mod Name Tooltip" id="ModNameTooltip" depends="" side="CLIENT">
+			<URL priority="0">https://minecraft.curseforge.com/projects/mod-name-tooltip/files/2312708/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/modnametooltip_1.10.2-1.6.0.jar</URL>
+			<Size>4150</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>2727d8078bd2c3879019ece5c2a23622</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Show the ItemStack&apos;s mod on its tooltip.</description>
+				<version>1.6.0</version>
+				<url>https://github.com/mezz/ModNameTooltip</url>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="CLIENT">
+			<URL priority="0">https://minecraft.curseforge.com/projects/mouse-tweaks/files/2321022/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/MouseTweaks-2.6.4-mc1.10.2.jar</URL>
+			<Size>55753</Size>
+			<Required isDefault='true'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>6c23b8f7a876336dbab417721ee44137</MD5>
+			<Meta>
+				<credits>Various open-source mods from where I learned.</credits>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
+				<version>2.6.4</version>
+				<url>http://www.minecraftforum.net/topic/1518185-</url>
+				<authors>YaLTeR</authors>
+			</Meta>
+		</Module>
+		<Module name="More Overlays" id="moreoverlays" depends="" side="CLIENT">
+			<URL priority="0">https://minecraft.curseforge.com/projects/more-overlays/files/2332109/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/moreoverlays-1.8-mc1.10.2.jar</URL>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>a61ed4f5235093444faf64ffe2691671</MD5>
+			<Size>34379</Size>
+		</Module>
+		<Module name="No Nausea" id="NoNausea" depends="" side="CLIENT">
+			<URL priority="0">https://minecraft.curseforge.com/projects/nonausea/files/2301414/download</URL>
+			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/NoNausea-MC1.9.4-1.0.jar</URL>
+			<Size>9469</Size>
+			<Required isDefault='true'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>5082cb435bc1c826d4af1904a4fc9a13</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Reaplces the vanilla nausea effect with something less headache inducing.</description>
+				<version>1.0</version>
+				<url>http://minecraft.curseforge.com/mc-mods/226035-nonausea</url>
+				<authors>lumien</authors>
+			</Meta>
+		</Module>
 		<Module name="OptiFine" id="OptiFine" depends="" side="CLIENT">
 			<URL priority="0">http://optifine.net/adloadx?f=OptiFine_1.10.2_HD_U_C3.jar</URL>
 			<URL priority="1">http://files.mcupdater.com/optional/mods/1.10/OptiFine_1.10.2_HD_U_C3.jar</URL>
@@ -518,61 +514,61 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 		</Module>
 	</Server>
 
-<!-- ########## MC 1.12 ########## -->
+	<!-- ########## MC 1.12 ########## -->
 
 	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1802.21" abstract="true">
 		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
-			<Curse project="appleskin" file="2496585" />
+			<Curse project="appleskin" file="2496585"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 		</Module>
 
 		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
-			<Curse project="journeymap" file="2498312" />
+			<Curse project="journeymap" file="2498312"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		
+
 		<Module name="JEI" id="jei" depends="" side="CLIENT">
-			<Curse project="jei" file="2522813" />
+			<Curse project="jei" file="2522813"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		
+
 		<Module name="JER - Just Enough Resources" id="jer" depends="jei" side="CLIENT">
-			<Curse project="just-enough-resources-jer" file="2497186" />
+			<Curse project="just-enough-resources-jer" file="2497186"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		
+
 		<!-- Keybind, etc... -->
-		
+
 		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
-			<Curse project="controlling" file="2522248" />
+			<Curse project="controlling" file="2522248"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		
+
 		<Module name="Inventory Tweaks" id="inventory-tweaks" depends="" side="CLIENT">
-			<Curse project="inventory-tweaks" file="2482481" />
+			<Curse project="inventory-tweaks" file="2482481"/>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		
+
 		<Module name="Mouse Tweaks" id="mouse-tweaks" depends="" side="CLIENT">
-			<Curse project="mouse-tweaks" file="2462627" />
+			<Curse project="mouse-tweaks" file="2462627"/>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		
+
 		<!-- Performance Tweaks -->
-		
+
 		<Module name="BetterFPS [beta]" id="betterfps" depends="" side="CLIENT">
-			<Curse project="betterfps" file="2483393" />
+			<Curse project="betterfps" file="2483393"/>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 		</Module>
-		
+
 		<Module name="OptiFine [ultra]" id="optifine" depends="" side="CLIENT">
 			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.12/OptiFine_1.12.2_HD_U_C9.jar</URL>
 			<Required>false</Required>
@@ -580,6 +576,6 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<MD5>3f3d4e04f0abe548009535e6ad094adb</MD5>
 			<Size>2334134</Size>
 		</Module>
-		
+
 	</Server>
 </ServerPack>
