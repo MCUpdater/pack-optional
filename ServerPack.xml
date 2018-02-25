@@ -515,7 +515,7 @@
 	</Server>
 
 	<!-- ########## MC 1.12 ########## -->
-	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1802.21" abstract="true">
+	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1802.25" abstract="true">
 
 		<Module name="Better Foliage" id="betterfoliage" depends="" side="CLIENT">
 			<Curse project="better-foliage" file="2478147"/>
@@ -721,6 +721,18 @@
 				<description>Adds a search bar to the Key-Bindings menu.</description>
 				<version>3.0.6</version>
 				<authors>jaredlll08</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Crafting Tweaks" id="crafting-tweaks" depends="" side="BOTH">
+			<Curse project="crafting-tweaks" file="2489633"/>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f0c105f8d14448109024128215d5159</MD5>
+			<Meta>
+				<description>Allows you to rotate, balance or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
+				<version>8.1.6</version>
+				<authors>BlayTheNinth</authors>
 			</Meta>
 		</Module>
 
