@@ -626,6 +626,30 @@
 			</Meta>
 		</Module>
 
+		<Module name="JEI Bees [beta]" id="jei-bees" depends="jei,forestry" side="CLIENT">
+			<Curse project="jei-bees" file="2490058"/>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>a4fef0a3bb6d401eb236b3fe3e1a4846</MD5>
+			<Meta>
+				<description>Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies.</description>
+				<version>0.9.0.5</version>
+				<authors>bdew</authors>
+			</Meta>
+		</Module>
+
+		<Module name="JEI Integration" id="jei-integration" depends="jei" side="CLIENT">
+			<Curse project="jei-integration" file="2491927"/>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>de73cdc5de95a2685e50d90f01c03a50</MD5>
+			<Meta>
+				<description>Adds tooltips and recipe support for some mods that don't have native JEI support.</description>
+				<version>1.5.1.36</version>
+				<authors>tonius111, snowshock35</authors>
+			</Meta>
+		</Module>
+
 		<Module name="JER - Just Enough Resources" id="jer" depends="jei" side="CLIENT">
 			<Curse project="just-enough-resources-jer" file="2497186"/>
 			<Required isDefault="true">false</Required>
