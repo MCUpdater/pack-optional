@@ -662,6 +662,18 @@
 			</Meta>
 		</Module>
 
+		<Module name="NEI - Not Enough Items" id="nei" depends="jei,codechickenlib" side="CLIENT">
+			<Curse project="not-enough-items-1-8" file="2509851"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>ab2b0106cdcf4f272b4df55743e0bd12</MD5>
+			<Meta>
+				<description>Simple recipe and item helper.</description>
+				<version>4.8.5.147</version>
+				<authors>covers1624, chickenbones</authors>
+			</Meta>
+		</Module>
+
 		<Module name="HWYLA - Here's What You're Looking At" id="hwlya" depends="" side="CLIENT">
 			<Curse project="hwyla" file="2506337"/>
 			<Required isDefault="true">false</Required>
@@ -765,8 +777,20 @@
 
 		<!-- Libraries -->
 
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="CLIENT">
+			<Curse project="codechicken-lib-1-8" file="2509819"/>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>7f142d3c45ef279f728a947e50d3b3dc</MD5>
+			<Meta>
+				<description>Library required for modern updates of ChickenBones' mods.</description>
+				<version>3.1.5.331</version>
+				<authors>covers1624, chickenbones</authors>
+			</Meta>
+		</Module>
+
 		<Module name="Lunatrius Core" id="lunatriuscore" depends="" side="CLIENT">
-			<Curse project="lunatriuscore" file=""/>
+			<Curse project="lunatriuscore" file="2489549"/>
 			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>0dae43ef5376822db0399ad254207aa3</MD5>
