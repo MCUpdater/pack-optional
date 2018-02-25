@@ -569,7 +569,7 @@
 			</Meta>
 		</Module>
 
-		<Module name="InGame Info XML Addon - Blood Magic" id="igi-bloodmagic" depends="ingame-info-xml,blood-magic" side="CLIENT">
+		<Module name="InGame Info XML Addon - Blood Magic" id="igi-bloodmagic" depends="ingame-info-xml blood-magic" side="CLIENT">
 			<Curse project="ingame-info-xml-addon-blood-magic" file="2337562"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
@@ -580,7 +580,7 @@
 				<authors>smbarbour</authors>
 			</Meta>
 		</Module>
-		<Module name="InGame Info XML Addon - Tough As Nails" id="igi-toughasnails" depends="ingame-info-xml,tough-as-nails" side="CLIENT">
+		<Module name="InGame Info XML Addon - Tough As Nails" id="igi-toughasnails" depends="ingame-info-xml tough-as-nails" side="CLIENT">
 			<Curse project="in-game-info-xml-addon-tough-as-nails" file="2517111"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
@@ -591,7 +591,7 @@
 				<authors>smbarbour</authors>
 			</Meta>
 		</Module>
-		<Module name="InGame Info XML Addon - Deep Resonance" id="igi-deepresonance" depends="ingame-info-xml,deep-resonance" side="CLIENT">
+		<Module name="InGame Info XML Addon - Deep Resonance" id="igi-deepresonance" depends="ingame-info-xml deep-resonance" side="CLIENT">
 			<Curse project="ingame-info-xml-addon-deep-resonance" file="2520489"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
@@ -602,7 +602,7 @@
 				<authors>smbarbour</authors>
 			</Meta>
 		</Module>
-		<Module name="InGame Info XML Addon - RFTools Dimensions" id="igi-rftools" depends="ingame-info-xml,rftools-dimensions" side="CLIENT">
+		<Module name="InGame Info XML Addon - RFTools Dimensions" id="igi-rftools" depends="ingame-info-xml rftools-dimensions" side="CLIENT">
 			<Curse project="ingame-info-xml-addon-rftools-dimensions" file="2520490"/>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
@@ -626,7 +626,7 @@
 			</Meta>
 		</Module>
 
-		<Module name="JEI Bees [beta]" id="jei-bees" depends="jei,forestry" side="CLIENT">
+		<Module name="JEI Bees [beta]" id="jei-bees" depends="jei forestry" side="CLIENT">
 			<Curse project="jei-bees" file="2490058"/>
 			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
@@ -662,9 +662,9 @@
 			</Meta>
 		</Module>
 
-		<Module name="NEI - Not Enough Items" id="nei" depends="jei,codechickenlib" side="CLIENT">
+		<Module name="NEI - Not Enough Items" id="nei" depends="jei codechickenlib" side="CLIENT">
 			<Curse project="not-enough-items-1-8" file="2509851"/>
-			<Required isDefault="true">false</Required>
+			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>ab2b0106cdcf4f272b4df55743e0bd12</MD5>
 			<Meta>
