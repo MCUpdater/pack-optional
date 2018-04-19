@@ -775,14 +775,15 @@
 		</Module>
 
 		<Module name="OptiFine [ultra]" id="optifine" depends="" side="CLIENT">
-			<URL priority='0'>http://files.mcupdater.com/optional/mods/1.12/OptiFine_1.12.2_HD_U_C9.jar</URL>
+			<URL priority='0'>https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_D1.jar</URL>
+			<URL priority='1'>http://files.mcupdater.com/optional/mods/1.12/OptiFine_1.12.2_HD_U_D1.jar</URL>
 			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>3f3d4e04f0abe548009535e6ad094adb</MD5>
-			<Size>2334134</Size>
+			<MD5>4bfc1c95dde8ec08568e01bfaa61e7c5</MD5>
+			<Size>2372821</Size>
 			<Meta>
 				<description>FPS Boost, Dynamic Lights, Shaders, etc...</description>
-				<version>Ultra C9</version>
+				<version>Ultra D1</version>
 				<authors>sp614x</authors>
 			</Meta>
 		</Module>
