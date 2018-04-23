@@ -854,14 +854,17 @@
 			</Meta>
 		</Module>
 
-		<Module name="Inventory Tweaks" id="inventory-tweaks" depends="" side="CLIENT">
-			<Curse project="inventory-tweaks" file="2482481"/>
-			<Required isDefault="false">false</Required>
+		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="CLIENT">
+			<Curse project="inventory-tweaks" file="2514356" type="RELEASE" autoupgrade="false"/>
+			<Size>262219</Size>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
+			<MD5>30791650e1af0293a8fbc26756a0e92f</MD5>
 			<Meta>
+				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
 				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
-				<version>1.63</version>
+				<version>1.64-dev+release.110.b4fac73</version>
+				<url>https://github.com/Kobata/inventory-tweaks</url>
 				<authors>Jimeo Wan, Kobata</authors>
 			</Meta>
 		</Module>
