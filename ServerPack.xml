@@ -236,6 +236,22 @@
 				<authors>squeek</authors>
 			</Meta>
 		</Module>
+
+		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookie" depends="" side="CLIENT">
+			<Curse project="bad-wither-no-cookie-reloaded" file="2496883"/>
+			<Size>7252</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d850eb20fa9128289d9b973ec634c936</MD5>
+			<Meta>
+				<credits>Life, the universe, and everything!</credits>
+				<description>A simple mod to silence the Wither and Dragon broadcast sounds.</description>
+				<version>1.10.2-2.12</version>
+				<url></url>
+				<authors>droidicus, kreezxil</authors>
+			</Meta>
+		</Module>
+
 		<Module name="Better Achievements" id="BetterAchievements" depends="" side="CLIENT">
 			<!-- NOTE: Works fine on server, but doesn't add anything we care about. -->
 			<URL priority="0">https://minecraft.curseforge.com/projects/betterachievements/files/2317312/download</URL>
@@ -515,7 +531,7 @@
 	</Server>
 
 	<!-- ########## MC 1.12 ########## -->
-	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1802.25" abstract="true">
+	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1804.23" abstract="true">
 
 		<Module name="Better Foliage" id="betterfoliage" depends="" side="CLIENT">
 			<Curse project="better-foliage" file="2478147"/>
@@ -529,6 +545,21 @@
 			</Meta>
 		</Module>
 
+		<Module name="Better Placement" id="betterplacement" depends="" side="BOTH">
+			<Curse project="better-placement" file="2481852"/>
+			<Required isDefault="false">false</Required>
+			<Size>7025</Size>
+			<ModType>Regular</ModType>
+			<MD5>f4518692cd397dd5beda3903289352f7</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Syncs block placement to cursor movement, allowing easier and faster building.</description>
+				<version>1.0.0-1</version>
+				<url>http://tterrag.com</url>
+				<authors>tterrag</authors>
+			</Meta>
+		</Module>
+
 		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
 			<Curse project="journeymap" file="2498312"/>
 			<Required isDefault="true">false</Required>
@@ -538,6 +569,51 @@
 				<description>Real-time map in-game or in a web browser as you explore.</description>
 				<version>5.5.2</version>
 				<authors>techbrew</authors>
+			</Meta>
+		</Module>
+
+		<Module name="ReAuth" id="reauth" depends="" side="CLIENT">
+			<Curse project="reauth" file="2491161" type="RELEASE" autoupgrade="false"/>
+			<Size>26591</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>5378a69bdd80d8b63ac275bb1d780e3e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Mod to renew your Session</description>
+				<version>3.5.2</version>
+				<url>http://minecraft.curseforge.com/projects/reauth</url>
+				<authors>TechnicianLP</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Fullscreen Windowed" id="fw" depends="" side="CLIENT">
+			<Curse project="fullscreen-windowed-borderless-for-minecraft" file="2456007"/>
+			<Size>18396</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>c7679200bdf1f6cb71361555407a4c7f</MD5>
+			<Meta>
+				<credits>To all the documentation out there, Thank You. Credits to MrWhalerus for 1.12 update</credits>
+				<description>Activates fullscreen windowed mode for Minecraft</description>
+				<version>1.6.0</version>
+				<url>https://github.com/hancin/Fullscreen-Windowed-Minecraft</url>
+				<authors>Hancin</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Smooth Font" id="smoothfont" depends="" side="BOTH">
+			<Curse project="smooth-font" file="2550506" type="RELEASE" autoupgrade="false"/>
+			<Size>212389</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>e775976a5413b3fca7d840affce4859f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Draws all fonts smoothly in any scale and also can use any font in your computer.</description>
+				<version>1.12.2-1.14.3</version>
+				<url>https://minecraft.curseforge.com/projects/smooth-font</url>
+				<authors>bre2el</authors>
 			</Meta>
 		</Module>
 
@@ -614,6 +690,14 @@
 			</Meta>
 		</Module>
 
+		<Module name="JEHC - Just Enough HarvestCraft" id="jehc" depends="jei harvestcraft" side="CLIENT">
+			<Curse project="just-enough-harvestcraft" file="2543885"/>
+			<Size>34299</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>e6aeb1de2061caad48112561c1d371ed</MD5>
+		</Module>
+
 		<Module name="JEI - Just Enough Items" id="jei" depends="" side="CLIENT">
 			<Curse project="jei" file="2522813"/>
 			<Required isDefault="true">false</Required>
@@ -651,14 +735,33 @@
 		</Module>
 
 		<Module name="JER - Just Enough Resources" id="jer" depends="jei" side="CLIENT">
-			<Curse project="just-enough-resources-jer" file="2497186"/>
+			<Curse project="just-enough-resources-jer" file="2523823" type="RELEASE" autoupgrade="false"/>
+			<Required isDefault="true">false</Required>
+			<Size>215140</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>82417033d33f4a478aad6643cc7abb8c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds Resources and Mob Drops to JEI</description>
+				<version>0.8.7</version>
+				<url></url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Just Enough Petroleum" id="justenoughpetroleum" depends="jei immersivepetroleum" side="CLIENT">
+			<Curse project="just-enough-petroleum" file="2549332"/>
+			<Size>18945</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>27533ed3008d56108ea637195e485c33</MD5>
+			<MD5>490c5fc3becfa64f3c25a38105796554</MD5>
 			<Meta>
-				<description>Adds Resources and Mob Drops to JEI.</description>
-				<version>0.8.5.27</version>
-				<authors>way2muchnoise</authors>
+				<credits>Forge, mezz, Flaxbeard, the Immersive Engineering team</credits>
+				<description>-and petroleum accessories</description>
+				<version>0.1</version>
+				<url></url>
+				<authors>BordListian</authors>
 			</Meta>
 		</Module>
 
@@ -724,6 +827,21 @@
 			</Meta>
 		</Module>
 
+		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
+			<Curse project='client-tweaks' file='2544119'/>
+			<Size>29611</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>d25fa68029a9be0f5f99f324ce8b83f3</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>There, I fixed Minecraft for you.</description>
+				<version>3.1.6</version>
+				<url>http://balyware.com</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+
 		<Module name="Crafting Tweaks" id="crafting-tweaks" depends="" side="BOTH">
 			<Curse project="crafting-tweaks" file="2489633"/>
 			<Required isDefault="false">false</Required>
@@ -760,7 +878,37 @@
 			</Meta>
 		</Module>
 
+		<Module name="RandomTweaks" id="randomtweaks" depends="" side="CLIENT">
+			<Curse project="randomtweaks" file="2550987"/>
+			<Size>132811</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>faa816ead877b8d366c5857783cbabfc</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A bunch of miscellaneous tweaks for Minecraft.</description>
+				<version>1.12.2-1.18.0.1</version>
+				<url>https://minecraft.curseforge.com/projects/randomtweaks</url>
+				<authors>TheRandomLabs</authors>
+			</Meta>
+		</Module>
+
 		<!-- Performance Tweaks -->
+
+		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookie" depends="" side="BOTH">
+			<Curse project="bad-wither-no-cookie-reloaded" file="2496784"/>
+			<Size>7111</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>afce9564fddb1f47024c588e7e9f6cd4</MD5>
+			<Meta>
+				<credits>Life, the universe, and everything!</credits>
+				<description>A simple mod to silence the Wither and Dragon broadcast sounds.</description>
+				<version>1.12-2.12</version>
+				<url></url>
+				<authors>droidicus, kreezxil</authors>
+			</Meta>
+		</Module>
 
 		<Module name="BetterFPS [beta]" id="betterfps" depends="" side="CLIENT">
 			<Curse project="betterfps" file="2483393"/>
@@ -771,6 +919,36 @@
 				<description>BetterFps is a Minecraft mod that add a few performance improvements, trying to be compatible with other mods.</description>
 				<version>1.4.8</version>
 				<authors>Guichaguri</authors>
+			</Meta>
+		</Module>
+
+		<Module name="FoamFix" id="foamfix" depends="" side="CLIENT">
+			<Curse project="foamfix-for-minecraft" file="2550790"/>
+			<Size>210832</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>726f0d6bb653d164b51f9311067ee851</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
+				<version>@VERSION@</version>
+				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
+				<authors>asiekierka</authors>
+			</Meta>
+		</Module>
+
+		<Module name="FPS Reducer" id="fpsreducer" depends="" side="CLIENT">
+			<Curse project="fps-reducer" file="2527580"/>
+			<Size>38633</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>e10447951b00191ce4bc754a114e1675</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Reduce GPU and CPU utilization during no operation.</description>
+				<version>1.12.2-1.9</version>
+				<url>https://minecraft.curseforge.com/projects/fps-reducer</url>
+				<authors>bre2el</authors>
 			</Meta>
 		</Module>
 
@@ -790,15 +968,33 @@
 
 		<!-- Libraries -->
 
-		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="CLIENT">
-			<Curse project="codechicken-lib-1-8" file="2509819"/>
+		<Module name="OpenEye" id="OpenEye" depends="" side="CLIENT">
+			<Curse project="openeye" file="2545677"/>
 			<Required isDefault="false">false</Required>
+			<Size>191712</Size>
 			<ModType>Regular</ModType>
-			<MD5>7f142d3c45ef279f728a947e50d3b3dc</MD5>
+			<MD5>66ec07363bab50f62e1a7c671df2d758</MD5>
 			<Meta>
-				<description>Library required for modern updates of ChickenBones' mods.</description>
-				<version>3.1.5.331</version>
-				<authors>covers1624, chickenbones</authors>
+				<credits></credits>
+				<description>Exception and analytics collector</description>
+				<version>0.8</version>
+				<url>https://openeye.openmods.info</url>
+				<authors>boq, Mikee</authors>
+			</Meta>
+		</Module>
+
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<Curse project="codechicken-lib-1-8" file="2540351"/>
+			<Required isDefault="false">false</Required>
+			<Size>658041</Size>
+			<ModType>Regular</ModType>
+			<MD5>edd6dc7efd8fda77a073aa778d94c2c0</MD5>
+			<Meta>
+				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>3.1.6.339</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
 			</Meta>
 		</Module>
 
