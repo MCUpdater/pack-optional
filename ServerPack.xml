@@ -240,7 +240,7 @@
 		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookie" depends="" side="CLIENT">
 			<Curse project="bad-wither-no-cookie-reloaded" file="2496883"/>
 			<Size>7252</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>d850eb20fa9128289d9b973ec634c936</MD5>
 			<Meta>
@@ -738,7 +738,7 @@
 			<Curse project="just-enough-resources-jer" file="2523823" type="RELEASE" autoupgrade="false"/>
 			<Required isDefault="true">false</Required>
 			<Size>215140</Size>
-			<Required>true</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>82417033d33f4a478aad6643cc7abb8c</MD5>
 			<Meta>
@@ -901,7 +901,7 @@
 		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookie" depends="" side="BOTH">
 			<Curse project="bad-wither-no-cookie-reloaded" file="2496784"/>
 			<Size>7111</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>afce9564fddb1f47024c588e7e9f6cd4</MD5>
 			<Meta>
