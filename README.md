@@ -32,3 +32,14 @@ If you need to provide a different version of one or need to require one (or wan
 to block it, etc...), you can `<Override/>` as necessary - just be sure to use the
 same mod ID we're using. Multiple copies of the same mod with different ID's are
 where 98% of problems here come from.
+
+### Testing
+
+If you are working on updates to the pack or just want to see how these optional
+mods work without the full overhead of a big modlist, we also have a test pack
+that you can add to MCU:
+
+`https://github.com/MCUpdater/pack-optional/raw/master/TestPack.xml`
+
+This will add server definitions for each supported MC version that do nothing
+more than load forge and the optionals.
