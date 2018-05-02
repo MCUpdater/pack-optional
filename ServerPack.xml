@@ -631,6 +631,21 @@
 			</Meta>
 		</Module>
 
+		<Module name="Better Advancements" id="betteradvancements" depends="" side="CLIENT">
+			<Curse project="better-advancements" file="2504151"/>
+			<Size>43462</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>a16be15706357e59ccb196e59d17e33d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An improvement to the Advancementscreen</description>
+				<version>0.0.5</version>
+				<url>https://github.com/way2muchnoise/BetterAdvancements</url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+
 		<Module name="InGame Info XML" id="ingame-info-xml" depends="lunatriuscore" side="CLIENT">
 			<Curse project="ingame-info-xml" file="2489566"/>
 			<Required isDefault="true">false</Required>
