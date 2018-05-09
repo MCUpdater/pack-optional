@@ -531,7 +531,7 @@
 	</Server>
 
 	<!-- ########## MC 1.12 ########## -->
-	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1804.23" abstract="true">
+	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1805.09" abstract="true">
 
 		<Module name="Better Foliage" id="betterfoliage" depends="" side="CLIENT">
 			<Curse project="better-foliage" file="2478147"/>
@@ -777,6 +777,22 @@
 				<version>0.1</version>
 				<url></url>
 				<authors>BordListian</authors>
+			</Meta>
+		</Module>
+
+		<Module name="ThaumicJEI" id="thaumicjei" depends="jei thaumcraft" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thaumic-jei/files/2555794/download</URL>
+			<Curse project="thaumic-jei" file="2555794" type="RELEASE" autoupgrade="false"/>
+			<Size>37631</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>06029ef456d0e3fc70d499a4dfac732a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Simple JEI addon for Thaumcraft</description>
+				<version>1.12.2-1.2.2-5</version>
+				<url></url>
+				<authors>Buuz135</authors>
 			</Meta>
 		</Module>
 
