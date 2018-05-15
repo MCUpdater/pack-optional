@@ -8,6 +8,7 @@
 
 		<Module name="Resource Pack - Faithful32 [git]" id="pack-faithful-git" depends="" side="CLIENT">
 			<URL priority="0">https://files.mcupdater.com/optional/packs/faithful32-master.git.zip</URL>
+			<!-- cached because the github dl is nested -->
 			<Size>27072954</Size>
 			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
@@ -20,10 +21,11 @@
 
 		<Module name="Resource Pack - Sphax PureBDCraft 64x" id="pack-sphax64" depends="" side="CLIENT">
 			<URL priority="0">https://files.mcupdater.com/optional/packs/sphax-64.zip</URL>
-			<Size></Size>
+			<!-- cached because their dl site is hostile -->
+			<Size>22749942</Size>
 			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
-			<MD5></MD5>
+			<MD5>e4d5b68c4c2425e02f5f80f9cee9009f</MD5>
 			<Meta>
 				<version>2017.05.04</version>
 			</Meta>
@@ -45,6 +47,7 @@
 
 		<Module name="Resource Pack - Unity [git]" id="pack-unity-git" depends="" side="CLIENT">
 			<URL priority="0">https://files.mcupdater.com/optional/packs/unity-1.12_plus.git.zip</URL>
+			<!-- cached because the github dl is nested -->
 			<Size>14081028</Size>
 			<Required isDefault='true'>false</Required>
 			<ModType>Regular</ModType>
