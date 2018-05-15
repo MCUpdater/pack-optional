@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="resource_packs" name="MCU-Optional ResourcePacks"
+		abstract="false" newsUrl="about:blank" generateList="true"
+		version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch"
+		revision="1805.14">
+
+		<Module name="Resource Pack - Faithful32 [git]" id="pack-faithful-git" depends="" side="CLIENT">
+			<URL priority="0">https://files.mcupdater.com/optional/packs/faithful32-master.git.zip</URL>
+			<Size>27072954</Size>
+			<Required isDefault='false'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>bdf7b3062f3b7d487da0e4ba178076d5</MD5>
+			<Meta>
+				<version>3848f48</version>
+			</Meta>
+			<ModPath>resourcepacks/faithful-git.zip</ModPath>
+		</Module>
+
+		<Module name="Resource Pack - Sphax PureBDCraft 64x" id="pack-sphax64" depends="" side="CLIENT">
+			<URL priority="0">https://files.mcupdater.com/optional/packs/sphax-64.zip</URL>
+			<Size></Size>
+			<Required isDefault='false'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5></MD5>
+			<Meta>
+				<version>2017.05.04</version>
+			</Meta>
+			<ModPath>resourcepacks/purebdcraft-64.zip</ModPath>
+		</Module>
+
+		<Module name="Resource Pack - Soartex Fanver Modded [curse]" id="pack-soartex-curse" depends="" side="CLIENT">
+			<URL priority="0">https://minecraft.curseforge.com/projects/soartex-fanver-modded/files/2560233/download</URL>
+			<Curse project="soartex-fanver-modded" file="2560233" type="RELEASE" autoupgrade="false"/>
+			<Size>98033152</Size>
+			<Required isDefault='false'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>52996dda8b2e1d3fc3fd0f4eb8569fba</MD5>
+			<Meta>
+				<version>2018.05.09</version>
+			</Meta>
+			<ModPath>resourcepacks/soartex-curse.zip</ModPath>
+		</Module>
+
+		<Module name="Resource Pack - Unity [git]" id="pack-unity-git" depends="" side="CLIENT">
+			<URL priority="0">https://files.mcupdater.com/optional/packs/unity-1.12_plus.git.zip</URL>
+			<Size>14081028</Size>
+			<Required isDefault='true'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>83dbd6304b5367659fc1b5cb9ac87a9d</MD5>
+			<Meta>
+				<version>c117cd3</version>
+			</Meta>
+			<ModPath>resourcepacks/unity-git.zip</ModPath>
+		</Module>
+
+		<Module name="Resource Pack - Unity [curse]" id="pack-unity-curse" depends="" side="CLIENT">
+			<URL priority="0">https://minecraft.curseforge.com/projects/unity/files/2547422/download</URL>
+			<Size>14081028</Size>
+			<Required isDefault='false'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>56336c1702da33f366f235be714e0e2f</MD5>
+			<Meta>
+				<version>1.6.3</version>
+			</Meta>
+			<ModPath>resourcepacks/unity-1.6.3.zip</ModPath>
+		</Module>
+
+	</Server>
+</ServerPack>
