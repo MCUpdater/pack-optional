@@ -573,15 +573,16 @@
 		</Module>
 
 		<Module name="ReAuth" id="reauth" depends="" side="CLIENT">
-			<Curse project="reauth" file="2491161" type="RELEASE" autoupgrade="false"/>
-			<Size>26591</Size>
+			<URL priority="0">https://minecraft.curseforge.com/projects/reauth/files/2560638/download</URL>
+			<Curse project="reauth" file="2560638" type="RELEASE" autoupgrade="false"/>
+			<Size>30446</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>5378a69bdd80d8b63ac275bb1d780e3e</MD5>
+			<MD5>6024686e40df10b8739042ea2dce7f1a</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A Mod to renew your Session</description>
-				<version>3.5.2</version>
+				<version>3.6.0</version>
 				<url>http://minecraft.curseforge.com/projects/reauth</url>
 				<authors>TechnicianLP</authors>
 			</Meta>
