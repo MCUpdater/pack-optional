@@ -857,6 +857,22 @@
 			</Meta>
 		</Module>
 
+		<Module name="Schematica" id="schematica" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/schematica/files/2554100/download</URL>
+			<Curse project="schematica" file="2554100" type="RELEASE" autoupgrade="false"/>
+			<Size>336150</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c779a8cd4fd0e99572385a529b790c73</MD5>
+			<Meta>
+				<credits>AbrarSyed, AtomicBlom, UltraMoogleMan</credits>
+				<description>Import and export Minecraft schematic files in Minecraft!</description>
+				<version>1.8.0.169</version>
+				<url>http://mc.lunatri.us/</url>
+				<authors>Lunatrius</authors>
+			</Meta>
+		</Module>
+
 		<Module name="HWYLA - Here's What You're Looking At" id="hwlya" depends="" side="CLIENT">
 			<Curse project="hwyla" file="2506337"/>
 			<Required isDefault="true">false</Required>
