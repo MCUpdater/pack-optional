@@ -618,6 +618,22 @@
 			</Meta>
 		</Module>
 
+		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2558747/download</URL>
+			<Curse project="dynamic-surroundings" file="2558747" type="RELEASE" autoupgrade="false"/>
+			<Size>22493363</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>35099addeb1119e535f780d67dafb37f</MD5>
+			<Meta>
+				<credits>Wirsbo for BetterRain; MrRube for Aurora Rubealis; Hurricaaane for Presence Footsteps and MAtmos; Mr_okushama for Battle Music; Ezer&apos;Arch for Galacticraft configurations</credits>
+				<description>Adds a variety of sound and visual effects to improve your Minecraft experience</description>
+				<version>1.12.2-3.4.9.13</version>
+				<url>https://github.com/OreCruncher/DynamicSurroundings/wiki</url>
+				<authors>OreCruncher, Abastro</authors>
+			</Meta>
+		</Module>
+
 		<!-- Information overlays -->
 
 		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
