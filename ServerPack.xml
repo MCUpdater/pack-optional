@@ -622,7 +622,7 @@
 			<URL priority="0">https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2558747/download</URL>
 			<Curse project="dynamic-surroundings" file="2558747" type="RELEASE" autoupgrade="false"/>
 			<Size>22493363</Size>
-			<Required>true</Required>
+			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>35099addeb1119e535f780d67dafb37f</MD5>
 			<Meta>
@@ -638,7 +638,7 @@
 			<URL priority="0">https://minecraft.curseforge.com/projects/hardcore-darkness/files/2499443/download</URL>
 			<Curse project="hardcore-darkness" file="2499443" type="RELEASE" autoupgrade="false"/>
 			<Size>32327</Size>
-			<Required>true</Required>
+			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>f4bdcba26a2f6d3dff66856e47ebbecc</MD5>
 			<Meta>
@@ -654,7 +654,7 @@
 			<URL priority="0">https://minecraft.curseforge.com/projects/what-fluid-fix/files/2545640/download</URL>
 			<Curse project="what-fluid-fix" file="2545640" type="RELEASE" autoupgrade="false"/>
 			<Size>2608</Size>
-			<Required>true</Required>
+			<Required isDefault='true'>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>afea050d7a50e126cdb80e89ece97827</MD5>
 			<Meta>
@@ -833,7 +833,7 @@
 			<URL priority="0">https://minecraft.curseforge.com/projects/thaumic-jei/files/2555794/download</URL>
 			<Curse project="thaumic-jei" file="2555794" type="RELEASE" autoupgrade="false"/>
 			<Size>37631</Size>
-			<Required>true</Required>
+			<Required isDefault='true'>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>06029ef456d0e3fc70d499a4dfac732a</MD5>
 			<Meta>
@@ -849,7 +849,7 @@
 			<URL priority="0">https://minecraft.curseforge.com/projects/laggoggles/files/2536205/download</URL>
 			<Curse project="laggoggles" file="2536205" type="RELEASE" autoupgrade="false"/>
 			<Size>3806071</Size>
-			<Required>true</Required>
+			<Required isDefault='true'>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>508e3da28e01551d9e140eaf033c18af</MD5>
 			<Meta>
@@ -877,7 +877,7 @@
 			<URL priority="0">https://minecraft.curseforge.com/projects/schematica/files/2554100/download</URL>
 			<Curse project="schematica" file="2554100" type="RELEASE" autoupgrade="false"/>
 			<Size>336150</Size>
-			<Required>true</Required>
+			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>c779a8cd4fd0e99572385a529b790c73</MD5>
 			<Meta>
@@ -929,7 +929,7 @@
 			<URL priority="0">https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2/files/2482453/download</URL>
 			<Curse project="worldeditcui-forge-edition-2" file="2482453" type="RELEASE" autoupgrade="false"/>
 			<Size>461808</Size>
-			<Required>true</Required>
+			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>44b1b1031c25f04955bfd7ed734bd467</MD5>
 			<Meta>
@@ -947,7 +947,7 @@
 			<URL priority="0">https://minecraft.curseforge.com/projects/command-keybindings/files/2550093/download</URL>
 			<Curse project="command-keybindings" file="2550093" type="RELEASE" autoupgrade="false"/>
 			<Size>10007</Size>
-			<Required>true</Required>
+			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>d3816dc0e20b1dc92f4245aaa945ce20</MD5>
 			<Meta>
