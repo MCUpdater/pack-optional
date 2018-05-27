@@ -847,6 +847,22 @@
 
 		<!-- Keybind, etc... -->
 
+		<Module name="Command Keybindings" id="commandkeybindings" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/command-keybindings/files/2550093/download</URL>
+			<Curse project="command-keybindings" file="2550093" type="RELEASE" autoupgrade="false"/>
+			<Size>10007</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d3816dc0e20b1dc92f4245aaa945ce20</MD5>
+			<Meta>
+				<credits>The_Fireplace for authoring</credits>
+				<description>Allows you to bind commands to keys</description>
+				<version>7.0.1</version>
+				<url>http://mods.curse.com/mc-mods/minecraft/242907-command-keybindings</url>
+				<authors>The_Fireplace</authors>
+			</Meta>
+		</Module>
+
 		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
 			<Curse project="controlling" file="2522248"/>
 			<Required isDefault="false">false</Required>
