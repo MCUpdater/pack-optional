@@ -634,6 +634,22 @@
 			</Meta>
 		</Module>
 
+		<Module name="Hardcore Darkness" id="hardcoredarkness" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/hardcore-darkness/files/2499443/download</URL>
+			<Curse project="hardcore-darkness" file="2499443" type="RELEASE" autoupgrade="false"/>
+			<Size>32327</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f4bdcba26a2f6d3dff66856e47ebbecc</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Removes the minimum light that&apos;s always present in minecraft.</description>
+				<version>2.0</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+		</Module>
+
 		<!-- Information overlays -->
 
 		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
