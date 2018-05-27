@@ -829,6 +829,22 @@
 			</Meta>
 		</Module>
 
+		<Module name="LagGoggles" id="laggoggles" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/laggoggles/files/2536205/download</URL>
+			<Curse project="laggoggles" file="2536205" type="RELEASE" autoupgrade="false"/>
+			<Size>3806071</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>508e3da28e01551d9e140eaf033c18af</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Find lag on the server with ease.</description>
+				<version>1.12.2-4.1</version>
+				<url>https://minecraft.curseforge.com/projects/laggoggles</url>
+				<authors>Terminator_NL</authors>
+			</Meta>
+		</Module>
+
 		<Module name="NEI - Not Enough Items" id="nei" depends="jei codechickenlib" side="CLIENT">
 			<Curse project="not-enough-items-1-8" file="2509851"/>
 			<Required isDefault="false">false</Required>
