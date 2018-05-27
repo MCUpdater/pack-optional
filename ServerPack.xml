@@ -650,6 +650,22 @@
 			</Meta>
 		</Module>
 
+		<Module name="WHAT - Water[vapor] Has Appropriate Textures" id="what" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/what-fluid-fix/files/2545640/download</URL>
+			<Curse project="what-fluid-fix" file="2545640" type="RELEASE" autoupgrade="false"/>
+			<Size>2608</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>afea050d7a50e126cdb80e89ece97827</MD5>
+			<Meta>
+				<credits>No Thanks To Forge</credits>
+				<description>Local modder obtains unlimited power.</description>
+				<version>0.2</version>
+				<url></url>
+				<authors>BordListian</authors>
+			</Meta>
+		</Module>
+
 		<!-- Information overlays -->
 
 		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
@@ -857,7 +873,7 @@
 			</Meta>
 		</Module>
 
-		<Module name="Schematica" id="schematica" depends="" side="BOTH">
+		<Module name="Schematica" id="schematica" depends="lunatriuscore" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/schematica/files/2554100/download</URL>
 			<Curse project="schematica" file="2554100" type="RELEASE" autoupgrade="false"/>
 			<Size>336150</Size>
@@ -906,6 +922,22 @@
 				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
 				<version>2.5.251</version>
 				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+
+		<Module name="WorldEdit CUI Forge Edition 2" id="worldeditcuife2" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2/files/2482453/download</URL>
+			<Curse project="worldeditcui-forge-edition-2" file="2482453" type="RELEASE" autoupgrade="false"/>
+			<Size>461808</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>44b1b1031c25f04955bfd7ed734bd467</MD5>
+			<Meta>
+				<credits>Thanks to LoadingByte for maintaining and updating GuiLib. Thnaks to Zyin&apos;s for releasing his code.</credits>
+				<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
+				<version>2.1.2-mf-1.12.2-14.23.0.2487</version>
+				<url>https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2</url>
+				<authors>Hexosse</authors>
 			</Meta>
 		</Module>
 
