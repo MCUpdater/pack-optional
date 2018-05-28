@@ -708,7 +708,7 @@
 				<authors>Lunatrius</authors>
 			</Meta>
 		</Module>
-
+<!-- disabling for now
 		<Module name="InGame Info XML Addon - Blood Magic" id="igi-bloodmagic" depends="ingame-info-xml blood-magic" side="CLIENT">
 			<Curse project="ingame-info-xml-addon-blood-magic" file="2337562"/>
 			<Required isDefault="true">false</Required>
@@ -720,6 +720,7 @@
 				<authors>smbarbour</authors>
 			</Meta>
 		</Module>
+-->
 		<Module name="InGame Info XML Addon - Tough As Nails" id="igi-toughasnails" depends="ingame-info-xml tough-as-nails" side="CLIENT">
 			<Curse project="in-game-info-xml-addon-tough-as-nails" file="2517111"/>
 			<Required isDefault="true">false</Required>
