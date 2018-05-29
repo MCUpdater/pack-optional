@@ -1132,15 +1132,16 @@
 		</Module>
 
 		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
-			<Curse project="codechicken-lib-1-8" file="2540351"/>
-			<Required isDefault="false">false</Required>
-			<Size>658041</Size>
+			<URL priority="0">https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2558563/download</URL>
+			<Curse project="codechicken-lib-1-8" file="2558563" type="RELEASE" autoupgrade="false"/>
+			<Size>659298</Size>
+			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>edd6dc7efd8fda77a073aa778d94c2c0</MD5>
+			<MD5>b92d9acf18144067cd3143116808c32f</MD5>
 			<Meta>
 				<credits></credits>
 				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
-				<version>3.1.6.339</version>
+				<version>3.1.8.341</version>
 				<url>http://chickenbones.net/Pages/links.html</url>
 				<authors>ChickenBones, covers1624</authors>
 			</Meta>
