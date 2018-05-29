@@ -708,19 +708,21 @@
 				<authors>Lunatrius</authors>
 			</Meta>
 		</Module>
-<!-- disabling for now
 		<Module name="InGame Info XML Addon - Blood Magic" id="igi-bloodmagic" depends="ingame-info-xml blood-magic" side="CLIENT">
-			<Curse project="ingame-info-xml-addon-blood-magic" file="2337562"/>
+			<URL priority="0">https://minecraft.curseforge.com/projects/ingame-info-xml-addon-blood-magic/files/2549047/download</URL>
+			<Curse project="ingame-info-xml-addon-blood-magic" file="2549047" type="RELEASE" autoupgrade="false"/>
+			<Size>12869</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>832e992816bf506f0e3e9b1d0f87d6ce</MD5>
+			<MD5>dd40835fc2833d5a8bcbb5b92e88a665</MD5>
 			<Meta>
-				<description>Adds tags for Blood Magic to InGame Info XML.</description>
-				<version>1.1</version>
+				<credits>WayOfTime for Blood Magic, and Lunatrius for InGameInfoXML</credits>
+				<description>Adds tags for Blood Magic data</description>
+				<version>1.2</version>
+				<url></url>
 				<authors>smbarbour</authors>
 			</Meta>
 		</Module>
--->
 		<Module name="InGame Info XML Addon - Tough As Nails" id="igi-toughasnails" depends="ingame-info-xml tough-as-nails" side="CLIENT">
 			<Curse project="in-game-info-xml-addon-tough-as-nails" file="2517111"/>
 			<Required isDefault="true">false</Required>
