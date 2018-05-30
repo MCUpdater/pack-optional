@@ -1046,15 +1046,16 @@
 		<!-- Performance Tweaks -->
 
 		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookie" depends="" side="BOTH">
-			<Curse project="bad-wither-no-cookie-reloaded" file="2496784"/>
-			<Size>7111</Size>
-			<Required>false</Required>
+			<URL priority="0">https://minecraft.curseforge.com/projects/bad-wither-no-cookie-reloaded/files/2496777/download</URL>
+			<Curse project="bad-wither-no-cookie-reloaded" file="2496777" type="RELEASE" autoupgrade="false"/>
+			<Size>7117</Size>
+			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>afce9564fddb1f47024c588e7e9f6cd4</MD5>
+			<MD5>b50264029ca6b448026a3922f5131975</MD5>
 			<Meta>
 				<credits>Life, the universe, and everything!</credits>
 				<description>A simple mod to silence the Wither and Dragon broadcast sounds.</description>
-				<version>1.12-2.12</version>
+				<version>1.12.2-2.12</version>
 				<url></url>
 				<authors>droidicus, kreezxil</authors>
 			</Meta>
