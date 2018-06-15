@@ -1074,15 +1074,16 @@
 		</Module>
 
 		<Module name="FoamFix" id="foamfix" depends="" side="CLIENT">
-			<Curse project="foamfix-for-minecraft" file="2550790"/>
-			<Size>210832</Size>
+			<URL priority="0">https://minecraft.curseforge.com/projects/foamfix-for-minecraft/files/2559212/download</URL>
+			<Curse project="foamfix-for-minecraft" file="2559212" type="RELEASE" autoupgrade="false"/>
+			<Size>206359</Size>
 			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>726f0d6bb653d164b51f9311067ee851</MD5>
+			<MD5>7f8f1e58481d9acbb9e32caf8d59058a</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
-				<version>@VERSION@</version>
+				<version>0.9.9.1-anarchy</version>
 				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
 				<authors>asiekierka</authors>
 			</Meta>
