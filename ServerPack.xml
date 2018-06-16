@@ -531,7 +531,7 @@
 	</Server>
 
 	<!-- ########## MC 1.12 ########## -->
-	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1805.09" abstract="true">
+	<Server id="optional" name="Optional Client-only includes" version="1.12.2" revision="1806.16" abstract="true">
 
 		<Module name="Better Foliage" id="betterfoliage" depends="" side="CLIENT">
 			<Curse project="better-foliage" file="2478147"/>
@@ -845,6 +845,21 @@
 				<version>1.12.2-1.3.0-11</version>
 				<url></url>
 				<authors>Buuz135</authors>
+			</Meta>
+		</Module>
+		<Module name="TC6 Aspects for JEI" id="tc6aspects4jei" depends="jei thaumcraft" side="CLIENT">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft-6-aspects-for-jei/files/2571602/download</URL>
+			<Curse project="thaumcraft-6-aspects-for-jei" file="2571602" type="RELEASE" autoupgrade="false"/>
+			<Size>12297</Size>
+			<Required isDefault='true'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>e15895922c063a52c2716fda6213ac23</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Find a list of items that share a common aspect</description>
+				<version>0.0.1a</version>
+				<url></url>
+				<authors>ZaBi94</authors>
 			</Meta>
 		</Module>
 
