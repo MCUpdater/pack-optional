@@ -1247,7 +1247,7 @@
 		<Module name="Audio Manager" id="audiomanager" depends="" side="CLIENT">
 			<Curse project="audiomanager" file="2657065" type="RELEASE" autoupgrade="false"/>
 			<Size>26178</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>cc409c3a3aa5c627c8769ea6b85f4d94</MD5>
 			<Meta>
