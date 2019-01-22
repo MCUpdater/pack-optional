@@ -555,6 +555,20 @@
 				<version>1.12.2-3.4.10.6</version>
 			</Meta>
 		</Module>
+		<Module name="Hardcore Darkness" id="hardcoredarkness" depends="" side="BOTH">
+			<Curse project="hardcore-darkness" file="2499443" type="RELEASE" autoupgrade="false"/>
+			<Size>32327</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>f4bdcba26a2f6d3dff66856e47ebbecc</MD5>
+			<Meta>
+				<authors>lumien</authors>
+				<description>Removes the minimum light that&apos;s always present in minecraft.</description>
+				<credits></credits>
+				<url></url>
+				<version>2.0</version>
+			</Meta>
+		</Module>
 		<Module name="Better Placement" id="betterplacement" depends="" side="BOTH">
 			<Curse project="better-placement" file="2481852" type="RELEASE" autoupgrade="false"/>
 			<Size>7025</Size>
