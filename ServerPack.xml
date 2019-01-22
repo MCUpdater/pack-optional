@@ -527,7 +527,7 @@
 		</Module>
 	</Server>
 	<Server id="optional" abstract="true" name="Optional includes" version="1.12.2" generateList="true" autoConnect="true" revision="1809.30" mainClass="" launcherType="Vanilla">
-		<Module name="Better Foliage" id="betterfoliage" depends="" side="CLIENT">
+		<Module name="Better Foliage" id="betterfoliage" depends="forgelin" side="CLIENT">
 			<Curse project="better-foliage" file="2631951" type="RELEASE" autoupgrade="false"/>
 			<Size>926081</Size>
 			<Required>false</Required>
@@ -555,7 +555,7 @@
 				<version>1.12.2-3.4.10.6</version>
 			</Meta>
 		</Module>
-		<Module name="Hardcore Darkness" id="hardcoredarkness" depends="" side="BOTH">
+		<Module name="Hardcore Darkness" id="hardcoredarkness" depends="" side="CLIENT">
 			<Curse project="hardcore-darkness" file="2499443" type="RELEASE" autoupgrade="false"/>
 			<Size>32327</Size>
 			<Required>false</Required>
@@ -1146,34 +1146,6 @@
 				<authors>boq, Mikee</authors>
 			</Meta>
 		</Module>
-		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
-			<Curse project="codechicken-lib-1-8" file="2618630" type="RELEASE" autoupgrade="false"/>
-			<Size>700785</Size>
-			<Required>false</Required>
-			<ModType>Regular</ModType>
-			<MD5>f8b4843eccafb2213512ba9be17bfad2</MD5>
-			<Meta>
-				<credits></credits>
-				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
-				<version>3.2.2.353</version>
-				<url>http://chickenbones.net/Pages/links.html</url>
-				<authors>ChickenBones, covers1624</authors>
-			</Meta>
-		</Module>
-		<Module name="LunatriusCore" id="lunatriuscore" depends="" side="BOTH">
-			<Curse project="lunatriuscore" file="2489549" type="RELEASE" autoupgrade="false"/>
-			<Size>76753</Size>
-			<Required>false</Required>
-			<ModType>Regular</ModType>
-			<MD5>0dae43ef5376822db0399ad254207aa3</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A collection of utilities for Lunatrius&apos; mods.</description>
-				<version>1.2.0.42</version>
-				<url>http://mc.lunatri.us/</url>
-				<authors>Lunatrius</authors>
-			</Meta>
-		</Module>
 		<Module name="Tinker&apos;s JEI" id="tinkersjei" depends="jei tconstruct" side="CLIENT">
 			<Curse project="tinkers-jei" file="2549634" type="RELEASE" autoupgrade="false"/>
 			<Size>11473</Size>
@@ -1258,5 +1230,50 @@
 				<authors>TamasHenning</authors>
 			</Meta>
 		</Module>
+
+		<!-- LIBRARIES (for 1.12) -->
+		<Module name="[library] Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="CLIENT">
+			<Curse project="shadowfacts-forgelin" file="2640952" type="RELEASE" autoupgrade="false"/>
+			<Size>5124663</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>59035365f7af35f599d1c4baade64d8b</MD5>
+			<Meta>
+				<authors>shadowfacts</authors>
+				<description>Kotlin helper library for Forge.</description>
+				<credits>Emberwalker, for the original Forgelin</credits>
+				<url>https://github.com/shadowfacts/Forgelin</url>
+				<version>1.8.2</version>
+			</Meta>
+		</Module>
+		<Module name="[library] CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<Curse project="codechicken-lib-1-8" file="2618630" type="RELEASE" autoupgrade="false"/>
+			<Size>700785</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>f8b4843eccafb2213512ba9be17bfad2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>3.2.2.353</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="[library] LunatriusCore" id="lunatriuscore" depends="" side="BOTH">
+			<Curse project="lunatriuscore" file="2489549" type="RELEASE" autoupgrade="false"/>
+			<Size>76753</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>0dae43ef5376822db0399ad254207aa3</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A collection of utilities for Lunatrius&apos; mods.</description>
+				<version>1.2.0.42</version>
+				<url>http://mc.lunatri.us/</url>
+				<authors>Lunatrius</authors>
+			</Meta>
+		</Module>
+
 	</Server>
 </ServerPack>
