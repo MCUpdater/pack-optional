@@ -541,6 +541,20 @@
 				<authors>octarine-noise (code), Meringue (textures)</authors>
 			</Meta>
 		</Module>
+		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="CLIENT">
+			<Curse project="dynamic-surroundings" file="2657343" type="RELEASE" autoupgrade="false"/>
+			<Size>22504474</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>31446cb1849ae51004e824802938dd66</MD5>
+			<Meta>
+				<authors>OreCruncher, Abastro</authors>
+				<description>Adds a variety of sound and visual effects to improve your Minecraft experience</description>
+				<credits>Wirsbo for BetterRain; MrRube for Aurora Rubealis; Hurricaaane for Presence Footsteps and MAtmos; Mr_okushama for Battle Music; Ezer&apos;Arch for Galacticraft configurations</credits>
+				<url>https://github.com/OreCruncher/DynamicSurroundings/wiki</url>
+				<version>1.12.2-3.4.10.6</version>
+			</Meta>
+		</Module>
 		<Module name="Better Placement" id="betterplacement" depends="" side="BOTH">
 			<Curse project="better-placement" file="2481852" type="RELEASE" autoupgrade="false"/>
 			<Size>7025</Size>
@@ -762,6 +776,20 @@
 				<authors>bdew</authors>
 			</Meta>
 		</Module>
+		<Module name="Bee Better at Bees" id="beebetteratbees" depends="jei forestry" side="CLIENT">
+			<Curse project="beebetteratbees" file="2627215" type="RELEASE" autoupgrade="false"/>
+			<Size>44806</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>9a46ba14d7b6a883daee71925f39c210</MD5>
+			<Meta>
+				<authors>HellFirePvP</authors>
+				<description>JEI-Utility mod that provides a more easily readable bee-breeding guidance</description>
+				<credits>HellFirePvP</credits>
+				<url>https://minecraft.curseforge.com/projects/beebetteratbees</url>
+				<version>1.12.2-2.0.3</version>
+			</Meta>
+		</Module>
 		<Module name="JEI Integration" id="jeiintegration" depends="jei" side="CLIENT">
 			<Curse project="jei-integration" file="2491927" type="RELEASE" autoupgrade="false"/>
 			<Size>54046</Size>
@@ -844,6 +872,20 @@
 				<version>1.12.2-4.1</version>
 				<url>https://minecraft.curseforge.com/projects/laggoggles</url>
 				<authors>Terminator_NL</authors>
+			</Meta>
+		</Module>
+		<Module name="MoreOverlays" id="moreoverlays" depends="" side="CLIENT">
+			<Curse project="more-overlays" file="2589773" type="RELEASE" autoupgrade="false"/>
+			<Size>39764</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>299ef46b09dfe6b9c874b7607c9a1d2d</MD5>
+			<Meta>
+				<authors>feldim2425</authors>
+				<description>Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search)</description>
+				<credits></credits>
+				<url></url>
+				<version>1.14</version>
 			</Meta>
 		</Module>
 		<Module name="Not Enough Items" id="nei" depends="jei codechickenlib" side="CLIENT">
