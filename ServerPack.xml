@@ -534,8 +534,8 @@
 			<ModType>Regular</ModType>
 			<MD5>e05a720c5900b9bac4e01179abe8eef6</MD5>
 			<Meta>
-				<description>Leafier leaves and grassier grass</description>
 				<credits></credits>
+				<description>Leafier leaves and grassier grass</description>
 				<version>2.2.0</version>
 				<url></url>
 				<authors>octarine-noise (code), Meringue (textures)</authors>
@@ -548,8 +548,8 @@
 			<ModType>Regular</ModType>
 			<MD5>f4518692cd397dd5beda3903289352f7</MD5>
 			<Meta>
-				<description>Syncs block placement to cursor movement, allowing easier and faster building.</description>
 				<credits></credits>
+				<description>Syncs block placement to cursor movement, allowing easier and faster building.</description>
 				<version>1.0.0-1</version>
 				<url>http://tterrag.com</url>
 				<authors>tterrag</authors>
@@ -562,8 +562,8 @@
 			<ModType>Regular</ModType>
 			<MD5>d3b5a672d2393f9fe63903598d50c769</MD5>
 			<Meta>
-				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2018-11-21-14:49:35.</description>
 				<credits></credits>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2018-11-21-14:49:35.</description>
 				<version>1.12.2-5.5.3</version>
 				<url>http://journeymap.info</url>
 				<authors>techbrew, mysticdrew</authors>
@@ -577,8 +577,8 @@
 			<ModType>Regular</ModType>
 			<MD5>6024686e40df10b8739042ea2dce7f1a</MD5>
 			<Meta>
-				<description>A Mod to renew your Session</description>
 				<credits></credits>
+				<description>A Mod to renew your Session</description>
 				<version>3.6.0</version>
 				<url>http://minecraft.curseforge.com/projects/reauth</url>
 				<authors>TechnicianLP</authors>
@@ -591,8 +591,8 @@
 			<ModType>Regular</ModType>
 			<MD5>c7679200bdf1f6cb71361555407a4c7f</MD5>
 			<Meta>
-				<description>Activates fullscreen windowed mode for Minecraft</description>
 				<credits>To all the documentation out there, Thank You. Credits to MrWhalerus for 1.12 update</credits>
+				<description>Activates fullscreen windowed mode for Minecraft</description>
 				<version>1.6.0</version>
 				<url>https://github.com/hancin/Fullscreen-Windowed-Minecraft</url>
 				<authors>Hancin</authors>
@@ -605,8 +605,8 @@
 			<ModType>Regular</ModType>
 			<MD5>7acfe18951bf0da7ea8fb64e6f48ff8f</MD5>
 			<Meta>
-				<description>Draws all fonts smoothly in any scale and also can use any font in your computer.</description>
 				<credits></credits>
+				<description>Draws all fonts smoothly in any scale and also can use any font in your computer.</description>
 				<version>mc1.12.2-1.16.2</version>
 				<url>https://minecraft.curseforge.com/projects/smooth-font</url>
 				<authors>bre2el</authors>
@@ -620,8 +620,8 @@
 			<ModType>Regular</ModType>
 			<MD5>afea050d7a50e126cdb80e89ece97827</MD5>
 			<Meta>
-				<description>Local modder obtains unlimited power.</description>
 				<credits>No Thanks To Forge</credits>
+				<description>Local modder obtains unlimited power.</description>
 				<version>0.2</version>
 				<url></url>
 				<authors>BordListian</authors>
@@ -634,8 +634,8 @@
 			<ModType>Regular</ModType>
 			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
 			<Meta>
-				<description>Adds various food-related HUD improvements</description>
 				<credits></credits>
+				<description>Adds various food-related HUD improvements</description>
 				<version>1.0.9</version>
 				<url></url>
 				<authors>squeek</authors>
@@ -648,8 +648,8 @@
 			<ModType>Regular</ModType>
 			<MD5>a16be15706357e59ccb196e59d17e33d</MD5>
 			<Meta>
-				<description>An improvement to the Advancementscreen</description>
 				<credits></credits>
+				<description>An improvement to the Advancementscreen</description>
 				<version>0.0.5</version>
 				<url>https://github.com/way2muchnoise/BetterAdvancements</url>
 				<authors>way2muchnoise</authors>
@@ -662,14 +662,14 @@
 			<ModType>Regular</ModType>
 			<MD5>02a15a0cfbffc4bc530f2bd56b0b1a6c</MD5>
 			<Meta>
-				<description>Display extra information on top of your ingame screen.</description>
 				<credits>DaftPVF, bspkrs</credits>
+				<description>Display extra information on top of your ingame screen.</description>
 				<version>2.8.2.94</version>
 				<url>http://mc.lunatri.us/</url>
 				<authors>Lunatrius</authors>
 			</Meta>
 		</Module>
-		<Module name="InGame Info XML Blood Magic Integration" id="igi|bloodmagicintegration" depends="ingameinfoxml bloodmagic" side="CLIENT">
+		<Module name="InGame Info XML Blood Magic Integration" id="igi|bloodmagicintegration" depends="ingameinfoxml bloodmagic" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ingame-info-xml-addon-blood-magic/files/2549047/download</URL>
 			<Curse project="ingame-info-xml-addon-blood-magic" file="2549047" type="RELEASE" autoupgrade="false"/>
 			<Size>12869</Size>
@@ -677,8 +677,8 @@
 			<ModType>Regular</ModType>
 			<MD5>dd40835fc2833d5a8bcbb5b92e88a665</MD5>
 			<Meta>
-				<description>Adds tags for Blood Magic data</description>
 				<credits>WayOfTime for Blood Magic, and Lunatrius for InGameInfoXML</credits>
+				<description>Adds tags for Blood Magic data</description>
 				<version>1.2</version>
 				<url></url>
 				<authors>smbarbour</authors>
@@ -692,8 +692,8 @@
 			<ModType>Regular</ModType>
 			<MD5>a84f630092a9ffc8208dfd37af454df4</MD5>
 			<Meta>
-				<description>Adds tags for Tough As Nails</description>
 				<credits>Lunatrius for InGameInfoXML</credits>
+				<description>Adds tags for Tough As Nails</description>
 				<version>1.3</version>
 				<url></url>
 				<authors>smbarbour</authors>
@@ -706,8 +706,8 @@
 			<ModType>Regular</ModType>
 			<MD5>7550309346654d37ca062e2f50ebfd94</MD5>
 			<Meta>
-				<description>Adds tags for Deep Resonance data</description>
 				<credits>McJty for Deep Resonance, and Lunatrius for InGameInfo-XML</credits>
+				<description>Adds tags for Deep Resonance data</description>
 				<version>1.1</version>
 				<url></url>
 				<authors>smbarbour</authors>
@@ -720,8 +720,8 @@
 			<ModType>Regular</ModType>
 			<MD5>52f5bec241e4af71ed8ee8c952676d1d</MD5>
 			<Meta>
-				<description>Adds tags for RFTools data</description>
 				<credits>McJty for RFTools, and Lunatrius for InGame-Info-XML</credits>
+				<description>Adds tags for RFTools data</description>
 				<version>1.2</version>
 				<url></url>
 				<authors>smbarbour</authors>
@@ -741,8 +741,8 @@
 			<ModType>Regular</ModType>
 			<MD5>09cfbc2770e6d141df2f2521b5b99e09</MD5>
 			<Meta>
-				<description>Simple recipe and item helper.</description>
 				<credits></credits>
+				<description>Simple recipe and item helper.</description>
 				<version>4.13.1.225</version>
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
@@ -755,8 +755,8 @@
 			<ModType>Regular</ModType>
 			<MD5>a4fef0a3bb6d401eb236b3fe3e1a4846</MD5>
 			<Meta>
-				<description></description>
 				<credits></credits>
+				<description></description>
 				<version>0.9.0.5</version>
 				<url>http://bdew.net/</url>
 				<authors>bdew</authors>
@@ -769,8 +769,8 @@
 			<ModType>Regular</ModType>
 			<MD5>de73cdc5de95a2685e50d90f01c03a50</MD5>
 			<Meta>
-				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
 				<credits>A huge thank you to Tonius for originally creating this amazing mod. I hope it lives up to his standards in his absence.</credits>
+				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
 				<version>1.5.1.36</version>
 				<url>https://minecraft.curseforge.com/projects/jei-integration</url>
 				<authors>SnowShock35</authors>
@@ -783,8 +783,8 @@
 			<ModType>Regular</ModType>
 			<MD5>27533ed3008d56108ea637195e485c33</MD5>
 			<Meta>
-				<description>Adds Resources and Mob Drops to JEI</description>
 				<credits></credits>
+				<description>Adds Resources and Mob Drops to JEI</description>
 				<version>0.8.5</version>
 				<url></url>
 				<authors>way2muchnoise</authors>
@@ -797,8 +797,8 @@
 			<ModType>Regular</ModType>
 			<MD5>490c5fc3becfa64f3c25a38105796554</MD5>
 			<Meta>
-				<description>-and petroleum accessories</description>
 				<credits>Forge, mezz, Flaxbeard, the Immersive Engineering team</credits>
+				<description>-and petroleum accessories</description>
 				<version>0.1</version>
 				<url></url>
 				<authors>BordListian</authors>
@@ -811,8 +811,8 @@
 			<ModType>Regular</ModType>
 			<MD5>6bd4a0d752f0bd53b28262836e18b09d</MD5>
 			<Meta>
-				<description>A Simple JEI addon for Thaumcraft</description>
 				<credits></credits>
+				<description>A Simple JEI addon for Thaumcraft</description>
 				<version>1.12.2-1.5.5-23</version>
 				<url></url>
 				<authors>Buuz135</authors>
@@ -825,8 +825,8 @@
 			<ModType>Regular</ModType>
 			<MD5>580045bd56e348b30629ccfb376c979a</MD5>
 			<Meta>
-				<description>Find a list of items that share a common aspect</description>
 				<credits></credits>
+				<description>Find a list of items that share a common aspect</description>
 				<version>0.0.2a</version>
 				<url></url>
 				<authors>ZaBi94</authors>
@@ -839,8 +839,8 @@
 			<ModType>Regular</ModType>
 			<MD5>508e3da28e01551d9e140eaf033c18af</MD5>
 			<Meta>
-				<description>Find lag on the server with ease.</description>
 				<credits></credits>
+				<description>Find lag on the server with ease.</description>
 				<version>1.12.2-4.1</version>
 				<url>https://minecraft.curseforge.com/projects/laggoggles</url>
 				<authors>Terminator_NL</authors>
@@ -853,8 +853,8 @@
 			<ModType>Regular</ModType>
 			<MD5>064beb533ca885ace7654c5d4066c8c7</MD5>
 			<Meta>
-				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.&lt;plugins&gt;&lt;supporters&gt;</description>
 				<credits>Alexandria - original idea</credits>
+				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.&lt;plugins&gt;&lt;supporters&gt;</description>
 				<version>2.4.2.240</version>
 				<url>http://www.minecraftforum.net/topic/909223</url>
 				<authors>ChickenBones</authors>
@@ -867,8 +867,8 @@
 			<ModType>Regular</ModType>
 			<MD5>c779a8cd4fd0e99572385a529b790c73</MD5>
 			<Meta>
-				<description>Import and export Minecraft schematic files in Minecraft!</description>
 				<credits>AbrarSyed, AtomicBlom, UltraMoogleMan</credits>
+				<description>Import and export Minecraft schematic files in Minecraft!</description>
 				<version>1.8.0.169</version>
 				<url>http://mc.lunatri.us/</url>
 				<authors>Lunatrius</authors>
@@ -881,8 +881,8 @@
 			<ModType>Regular</ModType>
 			<MD5>bca1c069d9171d331d211d24e8a3b770</MD5>
 			<Meta>
-				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
 				<credits></credits>
+				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
 				<version>1.8.26</version>
 				<url></url>
 				<authors>ProfMobius, TehNut</authors>
@@ -895,8 +895,8 @@
 			<ModType>Regular</ModType>
 			<MD5>0bd8765ff3064be336cb1b09208e410c</MD5>
 			<Meta>
-				<description>An add-on for Waila that adds information about the harvestability of what you are looking at</description>
 				<credits></credits>
+				<description>An add-on for Waila that adds information about the harvestability of what you are looking at</description>
 				<version>1.1.12</version>
 				<url></url>
 				<authors>squeek</authors>
@@ -909,8 +909,8 @@
 			<ModType>Regular</ModType>
 			<MD5>7fe60cd8c455a6a3fae50352d8419de6</MD5>
 			<Meta>
-				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
 				<credits>ProfMobius for making the Waila mod.</credits>
+				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
 				<version>2.5.265</version>
 				<url>https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at</url>
 				<authors>Darkhax</authors>
@@ -923,8 +923,8 @@
 			<ModType>Regular</ModType>
 			<MD5>44b1b1031c25f04955bfd7ed734bd467</MD5>
 			<Meta>
-				<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
 				<credits>Thanks to LoadingByte for maintaining and updating GuiLib. Thnaks to Zyin&apos;s for releasing his code.</credits>
+				<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
 				<version>2.1.2-mf-1.12.2-14.23.0.2487</version>
 				<url>https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2</url>
 				<authors>Hexosse</authors>
@@ -937,8 +937,8 @@
 			<ModType>Regular</ModType>
 			<MD5>d3816dc0e20b1dc92f4245aaa945ce20</MD5>
 			<Meta>
-				<description>Allows you to bind commands to keys</description>
 				<credits>The_Fireplace for authoring</credits>
+				<description>Allows you to bind commands to keys</description>
 				<version>7.0.1</version>
 				<url>http://mods.curse.com/mc-mods/minecraft/242907-command-keybindings</url>
 				<authors>The_Fireplace</authors>
@@ -951,8 +951,8 @@
 			<ModType>Regular</ModType>
 			<MD5>0d9a0429c72bc1c06358f1166bdd8c59</MD5>
 			<Meta>
-				<description>Gives people more Control of the key binding screen.</description>
 				<credits></credits>
+				<description>Gives people more Control of the key binding screen.</description>
 				<version>3.0.6</version>
 				<url></url>
 				<authors>Jaredlll08</authors>
@@ -965,8 +965,8 @@
 			<ModType>Regular</ModType>
 			<MD5>0b0c58701276b30b005bca8aeef29f9c</MD5>
 			<Meta>
-				<description>There, I fixed Minecraft for you.</description>
 				<credits>BlayTheNinth</credits>
+				<description>There, I fixed Minecraft for you.</description>
 				<version>3.1.11</version>
 				<url>http://balyware.com</url>
 				<authors>BlayTheNinth</authors>
@@ -979,8 +979,8 @@
 			<ModType>Regular</ModType>
 			<MD5>ffd1e2b5c4f244f4a7c6d4ee2e4c2090</MD5>
 			<Meta>
-				<description>Allows you to rotate or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
 				<credits>BlayTheNinth</credits>
+				<description>Allows you to rotate or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
 				<version>8.1.9</version>
 				<url>http://balyware.com</url>
 				<authors>BlayTheNinth</authors>
@@ -993,8 +993,8 @@
 			<ModType>Regular</ModType>
 			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
 			<Meta>
-				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
 				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
 				<version>1.63+release.109.220f184</version>
 				<url>https://github.com/Kobata/inventory-tweaks</url>
 				<authors>Jimeo Wan, Kobata</authors>
@@ -1007,8 +1007,8 @@
 			<ModType>Regular</ModType>
 			<MD5>e4f1e4819512203114a9424c4ab79fd0</MD5>
 			<Meta>
-				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
 				<credits>Various open-source mods from where I learned.</credits>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
 				<version>2.9</version>
 				<url>http://www.minecraftforum.net/topic/1518185-</url>
 				<authors>YaLTeR</authors>
@@ -1021,8 +1021,8 @@
 			<ModType>Regular</ModType>
 			<MD5>17352c8995fef78c25067776a6af74e9</MD5>
 			<Meta>
-				<description>A bunch of miscellaneous tweaks for Minecraft.</description>
 				<credits></credits>
+				<description>A bunch of miscellaneous tweaks for Minecraft.</description>
 				<version>1.12.2-2.4.0.6</version>
 				<url>https://minecraft.curseforge.com/projects/randomtweaks</url>
 				<authors>TheRandomLabs</authors>
@@ -1042,8 +1042,8 @@
 			<ModType>Regular</ModType>
 			<MD5>55b225238af64ead15ef6175d5da0bf9</MD5>
 			<Meta>
-				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
 				<credits></credits>
+				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
 				<version>@VERSION@</version>
 				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
 				<authors>asiekierka</authors>
@@ -1056,8 +1056,8 @@
 			<ModType>Regular</ModType>
 			<MD5>8530c573759465b1f70591b7ea9f7e48</MD5>
 			<Meta>
-				<description>Reduce GPU and CPU utilization during no operation.</description>
 				<credits></credits>
+				<description>Reduce GPU and CPU utilization during no operation.</description>
 				<version>mc1.12.2-1.10.3</version>
 				<url>https://minecraft.curseforge.com/projects/fps-reducer</url>
 				<authors>bre2el</authors>
@@ -1067,9 +1067,9 @@
 			<URL priority="0">https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_E3.jar</URL>
 			<URL priority="0">https://files.mcupdater.com/optional/mods/1.12/OptiFine_1.12.2_HD_U_E3.jar</URL>
 			<Size>2444057</Size>
-			<MD5>7ec95c57ac1a224d6eb93bd370e4ac37</MD5>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
+			<MD5>7ec95c57ac1a224d6eb93bd370e4ac37</MD5>
 			<Meta>
 				<description>FPS Boost, Dynamic Lights, Shaders, etc...</description>
 				<version>Ultra D1</version>
@@ -1083,8 +1083,8 @@
 			<ModType>Regular</ModType>
 			<MD5>66ec07363bab50f62e1a7c671df2d758</MD5>
 			<Meta>
-				<description>Exception and analytics collector</description>
 				<credits></credits>
+				<description>Exception and analytics collector</description>
 				<version>0.8</version>
 				<url>https://openeye.openmods.info</url>
 				<authors>boq, Mikee</authors>
@@ -1097,8 +1097,8 @@
 			<ModType>Regular</ModType>
 			<MD5>f8b4843eccafb2213512ba9be17bfad2</MD5>
 			<Meta>
-				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
 				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
 				<version>3.2.2.353</version>
 				<url>http://chickenbones.net/Pages/links.html</url>
 				<authors>ChickenBones, covers1624</authors>
@@ -1111,8 +1111,8 @@
 			<ModType>Regular</ModType>
 			<MD5>0dae43ef5376822db0399ad254207aa3</MD5>
 			<Meta>
-				<description>A collection of utilities for Lunatrius&apos; mods.</description>
 				<credits></credits>
+				<description>A collection of utilities for Lunatrius&apos; mods.</description>
 				<version>1.2.0.42</version>
 				<url>http://mc.lunatri.us/</url>
 				<authors>Lunatrius</authors>
@@ -1125,8 +1125,8 @@
 			<ModType>Regular</ModType>
 			<MD5>2454aa392e0415ab9dc21a4afdf0ed79</MD5>
 			<Meta>
-				<description>Currently only adds a JEI tab to show tool material stats</description>
 				<credits></credits>
+				<description>Currently only adds a JEI tab to show tool material stats</description>
 				<version>1.0</version>
 				<url></url>
 				<authors>possible_triangle</authors>
@@ -1139,8 +1139,8 @@
 			<ModType>Regular</ModType>
 			<MD5>eb05714c798a94f52ddd8617857052ab</MD5>
 			<Meta>
-				<description>Bug fixes, optimizations, no more crashes, and better crash reports for Minecraft</description>
 				<credits></credits>
+				<description>Bug fixes, optimizations, no more crashes, and better crash reports for Minecraft</description>
 				<version>1.0.10-SNAPSHOT</version>
 				<url>https://minecraft.curseforge.com/projects/vanillafix</url>
 				<authors>Runemoro</authors>
@@ -1153,8 +1153,8 @@
 			<ModType>Regular</ModType>
 			<MD5>6dda75b858fc93e2d18ccd42585aec03</MD5>
 			<Meta>
-				<description>Shows the mod an ItemStack is from on its tooltip.</description>
 				<credits></credits>
+				<description>Shows the mod an ItemStack is from on its tooltip.</description>
 				<version>1.10.0</version>
 				<url>https://github.com/mezz/ModNameTooltip</url>
 				<authors>mezz</authors>
@@ -1167,8 +1167,8 @@
 			<ModType>Regular</ModType>
 			<MD5>daa3d18a32e16a5ff8235c2af909c4d6</MD5>
 			<Meta>
-				<description>Completely Customize the way others see you play in Discord!</description>
 				<credits></credits>
+				<description>Completely Customize the way others see you play in Discord!</description>
 				<version>1.4.9.9</version>
 				<url>https://minecraft.curseforge.com/projects/craftpresence</url>
 				<authors>CDA_Gaming</authors>
@@ -1181,11 +1181,25 @@
 			<ModType>Regular</ModType>
 			<MD5>57bb3a2d101124d85a5e11e7ee1c8219</MD5>
 			<Meta>
-				<description>Control what toasts are enabled, because some of them are useless.</description>
 				<credits></credits>
+				<description>Control what toasts are enabled, because some of them are useless.</description>
 				<version>1.12.2-1.7.1</version>
 				<url></url>
 				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="Audio Manager" id="audiomanager" depends="" side="CLIENT">
+			<Curse project="audiomanager" file="2657065" type="RELEASE" autoupgrade="false"/>
+			<Size>26178</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cc409c3a3aa5c627c8769ea6b85f4d94</MD5>
+			<Meta>
+				<description>Allows you to select what default audio device to use.</description>
+				<credits>The Forge and FML guys</credits>
+				<version>0.0.2</version>
+				<url></url>
+				<authors>TamasHenning</authors>
 			</Meta>
 		</Module>
 	</Server>
