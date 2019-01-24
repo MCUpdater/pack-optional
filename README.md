@@ -39,7 +39,7 @@ If you are working on updates to the pack or just want to see how these optional
 mods work without the full overhead of a big modlist, we also have a test pack
 that you can add to MCU:
 
-`https://github.com/MCUpdater/pack-optional/raw/master/TestPack.xml`
+`https://files.mcupdater.com/optional/TestPack.xml`
 
 This will add server definitions for each supported MC version that do nothing
 more than load forge and the optionals.
