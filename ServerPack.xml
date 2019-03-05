@@ -655,7 +655,7 @@
 				<authors>BordListian</authors>
 			</Meta>
 		</Module>
-		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
 			<Curse project="appleskin" file="2496585" type="RELEASE" autoupgrade="false"/>
 			<Size>32317</Size>
 			<Required isDefault="true">false</Required>
@@ -958,7 +958,7 @@
 				<authors>squeek</authors>
 			</Meta>
 		</Module>
-		<Module name="What Are We Looking At" id="wawla" depends="waila" side="CLIENT">
+		<Module name="What Are We Looking At" id="wawla" depends="waila" side="BOTH">
 			<Curse project="wawla-what-are-we-looking-at" file="2643728" type="RELEASE" autoupgrade="false"/>
 			<Size>87057</Size>
 			<Required>false</Required>
@@ -972,7 +972,7 @@
 				<authors>Darkhax</authors>
 			</Meta>
 		</Module>
-		<Module name="WorldEdit CUI Forge Edition 2" id="worldeditcuife2" depends="" side="BOTH">
+		<Module name="WorldEdit CUI Forge Edition 2" id="worldeditcuife2" depends="" side="CLIENT">
 			<Curse project="worldeditcui-forge-edition-2" file="2629418" type="RELEASE" autoupgrade="false"/>
 			<Size>461808</Size>
 			<Required>false</Required>
@@ -986,7 +986,7 @@
 				<authors>Hexosse</authors>
 			</Meta>
 		</Module>
-		<Module name="Command Keybindings" id="commandkeybindings" depends="" side="BOTH">
+		<Module name="Command Keybindings" id="commandkeybindings" depends="" side="CLIENT">
 			<Curse project="command-keybindings" file="2550093" type="RELEASE" autoupgrade="false"/>
 			<Size>10007</Size>
 			<Required>false</Required>
@@ -1070,7 +1070,7 @@
 				<authors>YaLTeR</authors>
 			</Meta>
 		</Module>
-		<Module name="RandomTweaks" id="randomtweaks" depends="" side="CLIENT">
+		<Module name="RandomTweaks" id="randomtweaks" depends="" side="BOTH">
 			<Curse project="randomtweaks" file="2655989" type="RELEASE" autoupgrade="false"/>
 			<Size>172221</Size>
 			<Required>false</Required>
