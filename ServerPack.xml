@@ -2,17 +2,16 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="optional" abstract="true" name="Optional Client-only includes" version="1.7.10" generateList="true" autoConnect="true" revision="" mainClass="" launcherType="Vanilla">
-		<Module name="Fastcraft" id="fastcraft" depends="" side="CLIENT">
-			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/fastcraft-1.21.jar</URL>
-			<URL priority="1">http://files.player.to/fastcraft-1.21.jar</URL>
-			<Size>116959</Size>
+		<Module name="FastCraft" id="FastCraft" depends="" side="CLIENT">
+			<Curse project="fastcraft" file="2522249" type="RELEASE" autoupgrade="false"/>
+			<Size>183482</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f1f33a007d6a78d68e6bb217a6ffdb9e</MD5>
+			<MD5>44c7c6828ac38026f443804827955345</MD5>
 			<Meta>
-				<credits></credits>
 				<description>FastCraft optimizes MineCraft in various ways, visit the homepage for further details and support.</description>
-				<version>1.21</version>
+				<credits></credits>
+				<version>1.25</version>
 				<url>http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=10820</url>
 				<authors>Player</authors>
 			</Meta>
@@ -31,54 +30,75 @@
 			<ModType>Regular</ModType>
 			<MD5>b30db7148ee79b26a865889815f5d8a1</MD5>
 		</Module>
-		<Module name="Inventory Tweaks" id="invtweaks" depends="" side="CLIENT">
-			<URL priority="0">http://build.technicpack.net/job/Inventory-Tweaks/147/artifact/build/libs/InventoryTweaks-1.58-147.jar</URL>
-			<URL priority="1">http://files.mcupdater.com/optional/mods/1.7/InventoryTweaks-1.58-147.jar</URL>
-			<Size>221921</Size>
+		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="CLIENT">
+			<Curse project="inventory-tweaks" file="2210792" type="RELEASE" autoupgrade="false"/>
+			<Size>224461</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>c5d9271ea4afb47deae8c71f8bae61a1</MD5>
+			<MD5>83f7ddcd5f5fd8d640aa15dc62acc6bf</MD5>
+			<Meta>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
+				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
+				<version>1.59-dev-152-cf6e263</version>
+				<url>https://github.com/Kobata/inventory-tweaks</url>
+				<authors>Jimeo Wan, Kobata</authors>
+			</Meta>
 		</Module>
-		<Module name="AquaTweaks" id="aquatweaks" depends="" side="CLIENT">
-			<URL priority="0">http://minecraft.curseforge.com/mc-mods/231659-aquatweaks/files/2243845/download</URL>
+		<Module name="AquaTweaks" id="AquaTweaks" depends="" side="CLIENT">
 			<URL priority="1">http://files.mcupdater.com/optional/mods/1.7/AquaTweaks-1.7.10-1.0.jar</URL>
+			<Curse project="aquatweaks" file="2243845" type="RELEASE" autoupgrade="false"/>
 			<Size>26100</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>fb5c63447ce906f344c909a22c4a3f64</MD5>
+			<Meta>
+				<description>Making Minecraft prettier underwater!</description>
+				<credits>Ashlee Rees for helping with ASM, ApSciLiara for pointing me in the right direction, the IRC crew for suggestions and help</credits>
+				<version>1.0</version>
+				<url></url>
+				<authors>BluSunrize</authors>
+			</Meta>
 		</Module>
 		<Module name="ArmorStatusHUD" id="ArmorStatusHUD" depends="bspkrsCore" side="CLIENT">
 			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/[1.7.10]ArmorStatusHUD-client-1.28.jar</URL>
+			<Curse project="armorstatushud" file="2218859" type="RELEASE" autoupgrade="false"/>
 			<Size>27281</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>f0da1af3ea5b7797d2742b7a2b874e92</MD5>
 			<Meta>
-				<credits>Inspired by the armor/item tags available in IngameInfo by DaftPVF.</credits>
 				<description>Provides a HUD with your equipped armor/item stats.</description>
+				<credits>Inspired by the armor/item tags available in IngameInfo by DaftPVF.</credits>
 				<version>1.28</version>
 				<url>http://www.minecraftforum.net/topic/1114612-/</url>
 				<authors>bspkrs</authors>
 			</Meta>
 		</Module>
-		<Module name="BetterFoliage" id="betterfoliage" depends="" side="CLIENT">
-			<URL priority="0">http://minecraft.curseforge.com/mc-mods/228529-better-foliage/files/2239969/download</URL>
-			<URL priority="1">http://files.mcupdater.com/optional/mods/1.7/BetterFoliage-1.0.13.jar</URL>
-			<Size>363265</Size>
+		<Module name="Better Foliage" id="BetterFoliage" depends="" side="CLIENT">
+			<Curse project="better-foliage" file="2500869" type="RELEASE" autoupgrade="false"/>
+			<Size>1767080</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>bbc0592512759fe86de1cc804da37bcf</MD5>
+			<MD5>5fb19402d629422302c2d22a4d1dc5ef</MD5>
+			<Meta>
+				<description>Leafier leaves and grassier grass</description>
+				<credits></credits>
+				<version>2.0.17</version>
+				<url></url>
+				<authors>octarine-noise (code), Meringue (textures)</authors>
+			</Meta>
 		</Module>
 		<Module name="bspkrsCore" id="bspkrsCore" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/[1.7.10]bspkrsCore-universal-6.16.jar</URL>
+			<Curse project="bspkrscore" file="2227503" type="RELEASE" autoupgrade="false"/>
 			<ModPath>mods/1.7.10/[1.7.10]bspkrsCore-universal-6.16.jar</ModPath>
 			<Size>198525</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>e77344bda12bd0b91e01dfbb00a653f0</MD5>
 			<Meta>
-				<credits>Much of this code was originally part of DaftPVF&apos;s mods that I maintain.</credits>
 				<description>Shared classes used in the mods maintained by bspkrs.</description>
+				<credits>Much of this code was originally part of DaftPVF&apos;s mods that I maintain.</credits>
 				<version>6.16</version>
 				<url>http://www.minecraftforum.net/topic/1114612-/</url>
 				<authors>DaftPVF, bspkrs</authors>
@@ -86,119 +106,147 @@
 		</Module>
 		<Module name="CodeChicken Core" id="CodeChickenCore" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/CodeChickenCore-1.7.10-1.0.7.47-universal.jar</URL>
+			<Curse project="codechickencore" file="2262089" type="RELEASE" autoupgrade="false"/>
 			<Size>145782</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>07690caf86ecf79739852154f5e44750</MD5>
 			<Meta>
+				<description>Base common code for all chickenbones mods.
+
+Supporters: JBoyJr</description>
 				<credits></credits>
-				<description>Base common code for all chickenbones mods.</description>
-				<version>1.0.7.46</version>
+				<version>1.0.7.47</version>
 				<url>http://www.minecraftforum.net/topic/909223</url>
 				<authors>ChickenBones</authors>
 			</Meta>
 		</Module>
 		<Module name="Damage Indicators" id="DamageIndicatorsMod" depends="" side="CLIENT">
-			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/[1.7.10]DamageIndicatorsMod-3.2.3.jar</URL>
-			<Size>645760</Size>
+			<Curse project="damage-indicators-mod" file="2692129" type="RELEASE" autoupgrade="false"/>
+			<Size>283244</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>4d7172534ef2348a5aa2c4f130d9f57b</MD5>
+			<MD5>977ecf787685d114ace82f498552dd36</MD5>
 			<Meta>
-				<credits></credits>
 				<description>Displays the damage you inflict on creatures, as well as current health, name and potion effects.</description>
-				<version>3.2.3</version>
+				<credits></credits>
+				<version>3.3.2</version>
 				<url>http://www.minecraftforum.net/topic/1536685-</url>
 				<authors>rich1051414</authors>
 			</Meta>
 		</Module>
 		<Module name="InGame Info XML" id="InGameInfoXML" depends="LunatriusCore" side="CLIENT">
-			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/InGameInfoXML-1.7.10-2.8.1.80-universal.jar</URL>
-			<Size>328302</Size>
+			<Curse project="ingame-info-xml" file="2260741" type="RELEASE" autoupgrade="false"/>
+			<Size>330346</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>1eb22773ee25ee305ae49b21b8339941</MD5>
+			<MD5>334a6ab7fe204e38ab24add54290fa43</MD5>
 			<Meta>
-				<credits>DaftPVF, bspkrs</credits>
 				<description>Display extra information on top of your ingame screen.</description>
-				<version>2.8.1.80</version>
+				<credits>DaftPVF, bspkrs</credits>
+				<version>2.8.1.82</version>
 				<url>http://mc.lunatri.us/</url>
 				<authors>Lunatrius</authors>
 			</Meta>
 		</Module>
 		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/journeymap/download/2367915/file</URL>
-			<Size>1734339</Size>
+			<Curse project="journeymap" file="2367915" type="RELEASE" autoupgrade="false"/>
+			<Size>1731255</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>acba701d29e6aa674dd0a5110932ee2d</MD5>
+			<MD5>0c3daa19789a67da328437a8635c2cf3</MD5>
 			<Meta>
-				<credits></credits>
 				<description>JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore.</description>
-				<version>5.1.4</version>
+				<credits></credits>
+				<version>1.7.10-5.1.4p2</version>
 				<url>http://journeymap.info</url>
-				<authors>techbrew</authors>
+				<authors>techbrew, mysticdrew</authors>
 			</Meta>
 		</Module>
 		<Module name="LunatriusCore" id="LunatriusCore" depends="" side="CLIENT">
-			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/LunatriusCore-1.7.10-1.1.2.21-universal.jar</URL>
+			<Curse project="lunatriuscore" file="2225146" type="RELEASE" autoupgrade="false"/>
 			<Size>57644</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>435b2890f90cc256e0045eb559512eaf</MD5>
 			<Meta>
-				<credits></credits>
 				<description>A collection of utilities for Lunatrius&apos; mods.</description>
+				<credits></credits>
 				<version>1.1.2.21</version>
 				<url>http://mc.lunatri.us/</url>
 				<authors>Lunatrius</authors>
 			</Meta>
 		</Module>
 		<Module name="Not Enough Items" id="NEI" depends="CodeChickenCore" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/NotEnoughItems-1.7.10-1.0.5.118-universal.jar</URL>
-			<Size>513018</Size>
+			<Curse project="notenoughitems" file="2302312" type="RELEASE" autoupgrade="false"/>
+			<Size>513136</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>8a92f6d5da71f98f09d71eadfbc588c6</MD5>
+			<MD5>742e865a9a80071e80976ffedc05700e</MD5>
 			<Meta>
+				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.
+
+&lt;plugins&gt;
+
+Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Donut, Iarinu</description>
 				<credits>Alexandria - original idea</credits>
-				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more. &lt;plugins&gt; Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Donut</description>
-				<version>1.0.5.118</version>
+				<version>1.0.5.120</version>
 				<url>http://www.minecraftforum.net/topic/909223</url>
 				<authors>ChickenBones</authors>
 			</Meta>
-			<Submodule name="NEI Addons" id="NEI-Addons" depends="" side="CLIENT">
-				<URL priority="0">https://bdew.net/download/neiaddons-1.12.13.38-mc1.7.10.jar</URL>
-				<Size>100000</Size>
+			<Submodule name="NEI Addons" id="NEIAddons" depends="" side="CLIENT">
+				<Curse project="nei-addons" file="2262120" type="RELEASE" autoupgrade="false"/>
+				<Size>101777</Size>
 				<Required>true</Required>
 <ModType>Regular</ModType>
-				<MD5>06c5cc7dc8c79a3e98747096403a5100</MD5>
+				<MD5>cd23917348ec450f022c13c24f196374</MD5>
+				<Meta>
+					<description></description>
+					<credits></credits>
+					<version>1.12.14.40</version>
+					<url>bdew.net/neiaddons</url>
+					<authors>bdew</authors>
+				</Meta>
 			</Submodule>
-			<Submodule name="NEI Integration" id="NEI-Integration" depends="" side="CLIENT">
-				<URL priority="0">http://minecraft.curseforge.com/projects/nei-integration/files/2282522/download</URL>
-				<Size>100000</Size>
+			<Submodule name="NEI Integration" id="neiintegration" depends="" side="CLIENT">
+				<Curse project="nei-integration" file="2282522" type="RELEASE" autoupgrade="false"/>
+				<Size>197046</Size>
 				<Required>true</Required>
 <ModType>Regular</ModType>
 				<MD5>54308ef273613b79870e9e46df86e7d9</MD5>
+				<Meta>
+					<description>NEI handlers for all of the mods, one at a time.</description>
+					<credits>ChickenBones, mistaqur, iTitus, and anyone else who helped making the mod, directly or indirectly</credits>
+					<version>1.1.2</version>
+					<url></url>
+					<authors>tonius11</authors>
+				</Meta>
 			</Submodule>
-			<Submodule name="Not Enough Resources" id="NotEnoughResources" depends="" side="CLIENT">
-				<URL priority="0">http://addons-origin.cursecdn.com/files/2269/453/NotEnoughResources-1.7.10-0.1.0-121.jar</URL>
-				<URL priority="1">http://files.mcupdater.com/optional/mods/1.7/NotEnoughResources-1.7.10-0.1.0-121.jar</URL>
-				<Size>100000</Size>
+			<Submodule name="Not Enough Resources" id="neresources" depends="" side="CLIENT">
+				<Curse project="notenoughresources" file="2272500" type="RELEASE" autoupgrade="false"/>
+				<Size>226519</Size>
 				<Required>true</Required>
 <ModType>Regular</ModType>
-				<MD5>a9bea2f12c06176376500f217f856a13</MD5>
+				<MD5>dd1ce8f0d608791c62abc7c824019843</MD5>
+				<Meta>
+					<description>Adds Resources and Mob Drops to NEI</description>
+					<credits></credits>
+					<version></version>
+					<url></url>
+					<authors>hilburn, way2muchnoise</authors>
+				</Meta>
 			</Submodule>
 		</Module>
 		<Module name="StatusEffectHUD" id="StatusEffectHUD" depends="bspkrsCore" side="CLIENT">
 			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/[1.7.10]StatusEffectHUD-client-1.27.jar</URL>
+			<Curse project="statuseffecthud" file="2218935" type="RELEASE" autoupgrade="false"/>
 			<Size>24785</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>d3b526e884043c01d5b1d23ca88a8cd4</MD5>
 			<Meta>
-				<credits></credits>
 				<description>Shows active player effects (potions, etc) without opening your inventory!</description>
+				<credits></credits>
 				<version>1.27</version>
 				<url>http://www.minecraftforum.net/topic/1114612-/</url>
 				<authors>bspkrs</authors>
@@ -206,13 +254,14 @@
 		</Module>
 		<Module name="Waila" id="waila" depends="NEI" side="CLIENT">
 			<URL priority="0">http://files.mcupdater.com/optional/mods/1.7/Waila-1.5.10_1.7.10.jar</URL>
+			<Curse project="waila" file="2230518" type="RELEASE" autoupgrade="false"/>
 			<Size>544821</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>eeb36775188e70faa1c5ecd84f80076c</MD5>
 			<Meta>
-				<credits>The Forge and FML guys, for making this example</credits>
 				<description>All your data are belong to us.</description>
+				<credits>The Forge and FML guys, for making this example</credits>
 				<version>1.5.10_1.7.10</version>
 				<url></url>
 				<authors>ProfMobius</authors>
@@ -548,11 +597,11 @@
 			<ModType>Regular</ModType>
 			<MD5>31446cb1849ae51004e824802938dd66</MD5>
 			<Meta>
-				<authors>OreCruncher, Abastro</authors>
-				<description>Adds a variety of sound and visual effects to improve your Minecraft experience</description>
 				<credits>Wirsbo for BetterRain; MrRube for Aurora Rubealis; Hurricaaane for Presence Footsteps and MAtmos; Mr_okushama for Battle Music; Ezer&apos;Arch for Galacticraft configurations</credits>
-				<url>https://github.com/OreCruncher/DynamicSurroundings/wiki</url>
+				<description>Adds a variety of sound and visual effects to improve your Minecraft experience</description>
 				<version>1.12.2-3.4.10.6</version>
+				<url>https://github.com/OreCruncher/DynamicSurroundings/wiki</url>
+				<authors>OreCruncher, Abastro</authors>
 			</Meta>
 		</Module>
 		<Module name="Hardcore Darkness" id="hardcoredarkness" depends="" side="CLIENT">
@@ -562,11 +611,11 @@
 			<ModType>Regular</ModType>
 			<MD5>f4bdcba26a2f6d3dff66856e47ebbecc</MD5>
 			<Meta>
-				<authors>lumien</authors>
-				<description>Removes the minimum light that&apos;s always present in minecraft.</description>
 				<credits></credits>
-				<url></url>
+				<description>Removes the minimum light that&apos;s always present in minecraft.</description>
 				<version>2.0</version>
+				<url></url>
+				<authors>lumien</authors>
 			</Meta>
 		</Module>
 		<Module name="Better Placement" id="betterplacement" depends="" side="BOTH">
@@ -797,11 +846,11 @@
 			<ModType>Regular</ModType>
 			<MD5>9a46ba14d7b6a883daee71925f39c210</MD5>
 			<Meta>
-				<authors>HellFirePvP</authors>
-				<description>JEI-Utility mod that provides a more easily readable bee-breeding guidance</description>
 				<credits>HellFirePvP</credits>
-				<url>https://minecraft.curseforge.com/projects/beebetteratbees</url>
+				<description>JEI-Utility mod that provides a more easily readable bee-breeding guidance</description>
 				<version>1.12.2-2.0.3</version>
+				<url>https://minecraft.curseforge.com/projects/beebetteratbees</url>
+				<authors>HellFirePvP</authors>
 			</Meta>
 		</Module>
 		<Module name="JEI Integration" id="jeiintegration" depends="jei" side="CLIENT">
@@ -895,11 +944,11 @@
 			<ModType>Regular</ModType>
 			<MD5>299ef46b09dfe6b9c874b7607c9a1d2d</MD5>
 			<Meta>
-				<authors>feldim2425</authors>
-				<description>Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search)</description>
 				<credits></credits>
-				<url></url>
+				<description>Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search)</description>
 				<version>1.14</version>
+				<url></url>
+				<authors>feldim2425</authors>
 			</Meta>
 		</Module>
 		<Module name="Not Enough Items" id="nei" depends="jei codechickenlib" side="CLIENT">
@@ -1223,15 +1272,13 @@
 			<ModType>Regular</ModType>
 			<MD5>cc409c3a3aa5c627c8769ea6b85f4d94</MD5>
 			<Meta>
-				<description>Allows you to select what default audio device to use.</description>
 				<credits>The Forge and FML guys</credits>
+				<description>Allows you to select what default audio device to use.</description>
 				<version>0.0.2</version>
 				<url></url>
 				<authors>TamasHenning</authors>
 			</Meta>
 		</Module>
-
-		<!-- LIBRARIES (for 1.12) -->
 		<Module name="[library] Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="CLIENT">
 			<Curse project="shadowfacts-forgelin" file="2640952" type="RELEASE" autoupgrade="false"/>
 			<Size>5124663</Size>
@@ -1239,11 +1286,11 @@
 			<ModType>Regular</ModType>
 			<MD5>59035365f7af35f599d1c4baade64d8b</MD5>
 			<Meta>
-				<authors>shadowfacts</authors>
-				<description>Kotlin helper library for Forge.</description>
 				<credits>Emberwalker, for the original Forgelin</credits>
-				<url>https://github.com/shadowfacts/Forgelin</url>
+				<description>Kotlin helper library for Forge.</description>
 				<version>1.8.2</version>
+				<url>https://github.com/shadowfacts/Forgelin</url>
+				<authors>shadowfacts</authors>
 			</Meta>
 		</Module>
 		<Module name="[library] CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
@@ -1274,6 +1321,5 @@
 				<authors>Lunatrius</authors>
 			</Meta>
 		</Module>
-
 	</Server>
 </ServerPack>
