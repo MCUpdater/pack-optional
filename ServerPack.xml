@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
-<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+<ServerPack version="4.1" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="optional" abstract="true" name="Optional Client-only includes" version="1.7.10" generateList="true" autoConnect="true" revision="" mainClass="" launcherType="Vanilla">
 		<Module name="FastCraft" id="FastCraft" depends="" side="CLIENT">
 			<Curse project="fastcraft" file="2522249" type="RELEASE" autoupgrade="false"/>
@@ -583,8 +583,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>e05a720c5900b9bac4e01179abe8eef6</MD5>
 			<Meta>
-				<description>Leafier leaves and grassier grass</description>
 				<credits></credits>
+				<description>Leafier leaves and grassier grass</description>
 				<version>2.2.0</version>
 				<url></url>
 				<authors>octarine-noise (code), Meringue (textures)</authors>
@@ -597,8 +597,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>b587a5c7a4791894a3531577e4bbec81</MD5>
 			<Meta>
-				<description>Adds a variety of sound and visual effects to improve your Minecraft experience</description>
 				<credits>Wirsbo for BetterRain; MrRube for Aurora Rubealis; Hurricaaane for Presence Footsteps and MAtmos; Mr_okushama for Battle Music; Ezer&apos;Arch for Galacticraft configurations</credits>
+				<description>Adds a variety of sound and visual effects to improve your Minecraft experience</description>
 				<version>1.12.2-3.6.0.2</version>
 				<url>https://dynamicsurroundings.readthedocs.io</url>
 				<authors>OreCruncher, Abastro</authors>
@@ -611,8 +611,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>f4bdcba26a2f6d3dff66856e47ebbecc</MD5>
 			<Meta>
-				<description>Removes the minimum light that&apos;s always present in minecraft.</description>
 				<credits></credits>
+				<description>Removes the minimum light that&apos;s always present in minecraft.</description>
 				<version>2.0</version>
 				<url></url>
 				<authors>lumien</authors>
@@ -625,8 +625,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>f4518692cd397dd5beda3903289352f7</MD5>
 			<Meta>
-				<description>Syncs block placement to cursor movement, allowing easier and faster building.</description>
 				<credits></credits>
+				<description>Syncs block placement to cursor movement, allowing easier and faster building.</description>
 				<version>1.0.0-1</version>
 				<url>http://tterrag.com</url>
 				<authors>tterrag</authors>
@@ -639,8 +639,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>5a3405d5e5fe9324a6b0dca36aad93ed</MD5>
 			<Meta>
-				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2019-12-18-08:30:53.</description>
 				<credits></credits>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2019-12-18-08:30:53.</description>
 				<version>1.12.2-5.5.6</version>
 				<url>http://journeymap.info</url>
 				<authors>techbrew, mysticdrew</authors>
@@ -653,8 +653,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>6024686e40df10b8739042ea2dce7f1a</MD5>
 			<Meta>
-				<description>A Mod to renew your Session</description>
 				<credits></credits>
+				<description>A Mod to renew your Session</description>
 				<version>3.6.0</version>
 				<url>http://minecraft.curseforge.com/projects/reauth</url>
 				<authors>TechnicianLP</authors>
@@ -667,8 +667,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>c7679200bdf1f6cb71361555407a4c7f</MD5>
 			<Meta>
-				<description>Activates fullscreen windowed mode for Minecraft</description>
 				<credits>To all the documentation out there, Thank You. Credits to MrWhalerus for 1.12 update</credits>
+				<description>Activates fullscreen windowed mode for Minecraft</description>
 				<version>1.6.0</version>
 				<url>https://github.com/hancin/Fullscreen-Windowed-Minecraft</url>
 				<authors>Hancin</authors>
@@ -681,8 +681,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>99f7cd6644efabbe6055f2e9f429aafb</MD5>
 			<Meta>
-				<description>Draws all fonts smoothly in any scale and also can use any font in your computer.</description>
 				<credits></credits>
+				<description>Draws all fonts smoothly in any scale and also can use any font in your computer.</description>
 				<version>mc1.12.2-2.1.1</version>
 				<url>https://minecraft.curseforge.com/projects/smooth-font</url>
 				<authors>bre2el</authors>
@@ -695,8 +695,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>afea050d7a50e126cdb80e89ece97827</MD5>
 			<Meta>
-				<description>Local modder obtains unlimited power.</description>
 				<credits>No Thanks To Forge</credits>
+				<description>Local modder obtains unlimited power.</description>
 				<version>0.2</version>
 				<url></url>
 				<authors>BordListian</authors>
@@ -709,8 +709,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
 			<Meta>
-				<description>Adds various food-related HUD improvements</description>
 				<credits></credits>
+				<description>Adds various food-related HUD improvements</description>
 				<version>1.0.9</version>
 				<url></url>
 				<authors>squeek</authors>
@@ -723,8 +723,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>9009a4d080caf4d31e4ef8edba1f90cf</MD5>
 			<Meta>
-				<description>An improvement to the Advancementscreen</description>
 				<credits></credits>
+				<description>An improvement to the Advancementscreen</description>
 				<version>0.1.0</version>
 				<url>https://github.com/way2muchnoise/BetterAdvancements</url>
 				<authors>way2muchnoise</authors>
@@ -732,14 +732,13 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 		</Module>
 		<Module name="InGame Info XML" id="ingameinfoxml" depends="lunatriuscore" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/2489/566/InGameInfoXML-1.12.2-2.8.2.94-universal.jar</URL>
-			<URL priority="0"></URL>
 			<Size>0</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			<MD5>02a15a0cfbffc4bc530f2bd56b0b1a6c</MD5>
 			<Meta>
-				<description>Display extra information on top of your ingame screen.</description>
 				<credits>DaftPVF, bspkrs</credits>
+				<description>Display extra information on top of your ingame screen.</description>
 				<version>2.8.2.94</version>
 				<url>http://mc.lunatri.us/</url>
 				<authors>Lunatrius</authors>
@@ -752,8 +751,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>dd40835fc2833d5a8bcbb5b92e88a665</MD5>
 			<Meta>
-				<description>Adds tags for Blood Magic data</description>
 				<credits>WayOfTime for Blood Magic, and Lunatrius for InGameInfoXML</credits>
+				<description>Adds tags for Blood Magic data</description>
 				<version>1.2</version>
 				<url></url>
 				<authors>smbarbour</authors>
@@ -766,8 +765,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>a84f630092a9ffc8208dfd37af454df4</MD5>
 			<Meta>
-				<description>Adds tags for Tough As Nails</description>
 				<credits>Lunatrius for InGameInfoXML</credits>
+				<description>Adds tags for Tough As Nails</description>
 				<version>1.3</version>
 				<url></url>
 				<authors>smbarbour</authors>
@@ -780,22 +779,22 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>7550309346654d37ca062e2f50ebfd94</MD5>
 			<Meta>
-				<description>Adds tags for Deep Resonance data</description>
 				<credits>McJty for Deep Resonance, and Lunatrius for InGameInfo-XML</credits>
+				<description>Adds tags for Deep Resonance data</description>
 				<version>1.1</version>
 				<url></url>
 				<authors>smbarbour</authors>
 			</Meta>
 		</Module>
-		<Module name="InGame Info XML RFTools Integration" id="igi|rftoolsintegration" depends="ingameinfoxml rftools-dimensions" side="CLIENT">
+		<Module name="InGame Info XML RFTools Integration" id="igi|rftoolsintegration" depends="ingameinfoxml rftoolsdim" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/2520/490/IGI-RFTools-1.2.jar</URL>
 			<Size>8315</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>52f5bec241e4af71ed8ee8c952676d1d</MD5>
 			<Meta>
-				<description>Adds tags for RFTools data</description>
 				<credits>McJty for RFTools, and Lunatrius for InGame-Info-XML</credits>
+				<description>Adds tags for RFTools data</description>
 				<version>1.2</version>
 				<url></url>
 				<authors>smbarbour</authors>
@@ -815,8 +814,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>cfdbfecefb1bdc5a3fbbcecbfecb0545</MD5>
 			<Meta>
-				<description>Simple recipe and item helper.</description>
 				<credits></credits>
+				<description>Simple recipe and item helper.</description>
 				<version>4.15.0.291</version>
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
@@ -829,8 +828,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>a4fef0a3bb6d401eb236b3fe3e1a4846</MD5>
 			<Meta>
-				<description></description>
 				<credits></credits>
+				<description></description>
 				<version>0.9.0.5</version>
 				<url>http://bdew.net/</url>
 				<authors>bdew</authors>
@@ -843,8 +842,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>9a46ba14d7b6a883daee71925f39c210</MD5>
 			<Meta>
-				<description>JEI-Utility mod that provides a more easily readable bee-breeding guidance</description>
 				<credits>HellFirePvP</credits>
+				<description>JEI-Utility mod that provides a more easily readable bee-breeding guidance</description>
 				<version>1.12.2-2.0.3</version>
 				<url>https://minecraft.curseforge.com/projects/beebetteratbees</url>
 				<authors>HellFirePvP</authors>
@@ -857,8 +856,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>de73cdc5de95a2685e50d90f01c03a50</MD5>
 			<Meta>
-				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
 				<credits>A huge thank you to Tonius for originally creating this amazing mod. I hope it lives up to his standards in his absence.</credits>
+				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
 				<version>1.5.1.36</version>
 				<url>https://minecraft.curseforge.com/projects/jei-integration</url>
 				<authors>SnowShock35</authors>
@@ -871,8 +870,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>0702adf6190a636718e69e0ad9fa8dd3</MD5>
 			<Meta>
-				<description>Adds Resources and Mob Drops to JEI</description>
 				<credits></credits>
+				<description>Adds Resources and Mob Drops to JEI</description>
 				<version>0.9.1</version>
 				<url></url>
 				<authors>way2muchnoise</authors>
@@ -885,8 +884,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>490c5fc3becfa64f3c25a38105796554</MD5>
 			<Meta>
-				<description>-and petroleum accessories</description>
 				<credits>Forge, mezz, Flaxbeard, the Immersive Engineering team</credits>
+				<description>-and petroleum accessories</description>
 				<version>0.1</version>
 				<url></url>
 				<authors>BordListian</authors>
@@ -899,8 +898,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>ac9c39b39b4ea8dc40fe7b8a55d773d1</MD5>
 			<Meta>
-				<description>A Simple JEI addon for Thaumcraft</description>
 				<credits></credits>
+				<description>A Simple JEI addon for Thaumcraft</description>
 				<version>1.12.2-1.6.0-27</version>
 				<url></url>
 				<authors>Buuz135</authors>
@@ -913,8 +912,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>580045bd56e348b30629ccfb376c979a</MD5>
 			<Meta>
-				<description>Find a list of items that share a common aspect</description>
 				<credits></credits>
+				<description>Find a list of items that share a common aspect</description>
 				<version>0.0.2a</version>
 				<url></url>
 				<authors>ZaBi94</authors>
@@ -927,8 +926,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>a5d015547559a80acad9ad072a35fa04</MD5>
 			<Meta>
-				<description>Find lag on the server with ease.</description>
 				<credits></credits>
+				<description>Find lag on the server with ease.</description>
 				<version>1.12.2-4.9</version>
 				<url>https://minecraft.curseforge.com/projects/laggoggles</url>
 				<authors>Terminator_NL</authors>
@@ -941,8 +940,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>7b5200f51245b61ef149f7a33860e930</MD5>
 			<Meta>
-				<description>Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search)</description>
 				<credits></credits>
+				<description>Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search)</description>
 				<version>1.15.1</version>
 				<url></url>
 				<authors>feldim2425</authors>
@@ -955,8 +954,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>03b98ad8c1553c59f969022b6571dd2c</MD5>
 			<Meta>
-				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.&lt;plugins&gt;&lt;supporters&gt;</description>
 				<credits>Alexandria - original idea</credits>
+				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.&lt;plugins&gt;&lt;supporters&gt;</description>
 				<version>2.4.3.245</version>
 				<url>http://www.minecraftforum.net/topic/909223</url>
 				<authors>ChickenBones</authors>
@@ -969,8 +968,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>c779a8cd4fd0e99572385a529b790c73</MD5>
 			<Meta>
-				<description>Import and export Minecraft schematic files in Minecraft!</description>
 				<credits>AbrarSyed, AtomicBlom, UltraMoogleMan</credits>
+				<description>Import and export Minecraft schematic files in Minecraft!</description>
 				<version>1.8.0.169</version>
 				<url>http://mc.lunatri.us/</url>
 				<authors>Lunatrius</authors>
@@ -983,8 +982,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>bca1c069d9171d331d211d24e8a3b770</MD5>
 			<Meta>
-				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
 				<credits></credits>
+				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
 				<version>1.8.26</version>
 				<url></url>
 				<authors>ProfMobius, TehNut</authors>
@@ -997,8 +996,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>0bd8765ff3064be336cb1b09208e410c</MD5>
 			<Meta>
-				<description>An add-on for Waila that adds information about the harvestability of what you are looking at</description>
 				<credits></credits>
+				<description>An add-on for Waila that adds information about the harvestability of what you are looking at</description>
 				<version>1.1.12</version>
 				<url></url>
 				<authors>squeek</authors>
@@ -1011,8 +1010,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>9fb22c03a295fcdaa590a3b0cd3df793</MD5>
 			<Meta>
-				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
 				<credits>ProfMobius for making the Waila mod.</credits>
+				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
 				<version>2.5.272</version>
 				<url>https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at</url>
 				<authors>Darkhax</authors>
@@ -1025,8 +1024,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>44b1b1031c25f04955bfd7ed734bd467</MD5>
 			<Meta>
-				<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
 				<credits>Thanks to LoadingByte for maintaining and updating GuiLib. Thnaks to Zyin&apos;s for releasing his code.</credits>
+				<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
 				<version>2.1.2-mf-1.12.2-14.23.0.2487</version>
 				<url>https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2</url>
 				<authors>Hexosse</authors>
@@ -1039,8 +1038,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>d3816dc0e20b1dc92f4245aaa945ce20</MD5>
 			<Meta>
-				<description>Allows you to bind commands to keys</description>
 				<credits>The_Fireplace for authoring</credits>
+				<description>Allows you to bind commands to keys</description>
 				<version>7.0.1</version>
 				<url>http://mods.curse.com/mc-mods/minecraft/242907-command-keybindings</url>
 				<authors>The_Fireplace</authors>
@@ -1053,8 +1052,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>0d9a0429c72bc1c06358f1166bdd8c59</MD5>
 			<Meta>
-				<description>Gives people more Control of the key binding screen.</description>
 				<credits></credits>
+				<description>Gives people more Control of the key binding screen.</description>
 				<version>3.0.6</version>
 				<url></url>
 				<authors>Jaredlll08</authors>
@@ -1067,8 +1066,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>0b0c58701276b30b005bca8aeef29f9c</MD5>
 			<Meta>
-				<description>There, I fixed Minecraft for you.</description>
 				<credits>BlayTheNinth</credits>
+				<description>There, I fixed Minecraft for you.</description>
 				<version>3.1.11</version>
 				<url>http://balyware.com</url>
 				<authors>BlayTheNinth</authors>
@@ -1081,8 +1080,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>ffd1e2b5c4f244f4a7c6d4ee2e4c2090</MD5>
 			<Meta>
-				<description>Allows you to rotate or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
 				<credits>BlayTheNinth</credits>
+				<description>Allows you to rotate or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
 				<version>8.1.9</version>
 				<url>http://balyware.com</url>
 				<authors>BlayTheNinth</authors>
@@ -1095,8 +1094,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
 			<Meta>
-				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
 				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
 				<version>1.63+release.109.220f184</version>
 				<url>https://github.com/Kobata/inventory-tweaks</url>
 				<authors>Jimeo Wan, Kobata</authors>
@@ -1109,8 +1108,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>e4dcbf47c3f99a780681e3a3a9fcf9e9</MD5>
 			<Meta>
-				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
 				<credits>Various open-source mods from where I learned.</credits>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
 				<version>2.10</version>
 				<url>http://www.minecraftforum.net/topic/1518185-</url>
 				<authors>YaLTeR</authors>
@@ -1123,8 +1122,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>301a028a1663cd02182ec135365014c2</MD5>
 			<Meta>
-				<description>A bunch of miscellaneous tweaks for Minecraft.</description>
 				<credits></credits>
+				<description>A bunch of miscellaneous tweaks for Minecraft.</description>
 				<version>1.12.2-2.7.0.0</version>
 				<url>https://minecraft.curseforge.com/projects/randomtweaks</url>
 				<authors>TheRandomLabs</authors>
@@ -1144,8 +1143,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>bba94f1ee252fcfbd2d52779f5c2f2b1</MD5>
 			<Meta>
-				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
 				<credits></credits>
+				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
 				<version>@VERSION@</version>
 				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
 				<authors>asiekierka</authors>
@@ -1158,8 +1157,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>8254c23c901b40744a100fc111023a1e</MD5>
 			<Meta>
-				<description>Reduce GPU and CPU utilization during no operation.</description>
 				<credits></credits>
+				<description>Reduce GPU and CPU utilization during no operation.</description>
 				<version>mc1.12.2-1.12.4</version>
 				<url>https://minecraft.curseforge.com/projects/fps-reducer</url>
 				<authors>bre2el</authors>
@@ -1185,8 +1184,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>66ec07363bab50f62e1a7c671df2d758</MD5>
 			<Meta>
-				<description>Exception and analytics collector</description>
 				<credits></credits>
+				<description>Exception and analytics collector</description>
 				<version>0.8</version>
 				<url>https://openeye.openmods.info</url>
 				<authors>boq, Mikee</authors>
@@ -1199,8 +1198,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>b2b7946fdd352745f75a9676f0df51a3</MD5>
 			<Meta>
-				<description>Currently only adds a JEI tab to show tool material stats</description>
 				<credits></credits>
+				<description>Currently only adds a JEI tab to show tool material stats</description>
 				<version>1.2</version>
 				<url></url>
 				<authors>possible_triangle</authors>
@@ -1213,8 +1212,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>eb05714c798a94f52ddd8617857052ab</MD5>
 			<Meta>
-				<description>Bug fixes, optimizations, no more crashes, and better crash reports for Minecraft</description>
 				<credits></credits>
+				<description>Bug fixes, optimizations, no more crashes, and better crash reports for Minecraft</description>
 				<version>1.0.10-SNAPSHOT</version>
 				<url>https://minecraft.curseforge.com/projects/vanillafix</url>
 				<authors>Runemoro</authors>
@@ -1227,8 +1226,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>e36854d3c58af598ab3ce08d6cf0c760</MD5>
 			<Meta>
-				<description>Shows the mod an ItemStack is from on its tooltip.</description>
 				<credits></credits>
+				<description>Shows the mod an ItemStack is from on its tooltip.</description>
 				<version>1.10.1</version>
 				<url>https://github.com/mezz/ModNameTooltip</url>
 				<authors>mezz</authors>
@@ -1241,8 +1240,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>a6cf72d467061271e26fc8d2f56ef117</MD5>
 			<Meta>
-				<description>Completely Customize the way others see you play in Discord!</description>
 				<credits></credits>
+				<description>Completely Customize the way others see you play in Discord!</description>
 				<version>1.6.0</version>
 				<url>https://minecraft.curseforge.com/projects/craftpresence</url>
 				<authors>CDA_Gaming</authors>
@@ -1255,8 +1254,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>57bb3a2d101124d85a5e11e7ee1c8219</MD5>
 			<Meta>
-				<description>Control what toasts are enabled, because some of them are useless.</description>
 				<credits></credits>
+				<description>Control what toasts are enabled, because some of them are useless.</description>
 				<version>1.12.2-1.7.1</version>
 				<url></url>
 				<authors>Shadows_of_Fire</authors>
@@ -1269,8 +1268,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>cc409c3a3aa5c627c8769ea6b85f4d94</MD5>
 			<Meta>
-				<description>Allows you to select what default audio device to use.</description>
 				<credits>The Forge and FML guys</credits>
+				<description>Allows you to select what default audio device to use.</description>
 				<version>0.0.2</version>
 				<url></url>
 				<authors>TamasHenning</authors>
@@ -1283,8 +1282,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>59035365f7af35f599d1c4baade64d8b</MD5>
 			<Meta>
-				<description>Kotlin helper library for Forge.</description>
 				<credits>Emberwalker, for the original Forgelin</credits>
+				<description>Kotlin helper library for Forge.</description>
 				<version>1.8.2</version>
 				<url>https://github.com/shadowfacts/Forgelin</url>
 				<authors>shadowfacts</authors>
@@ -1297,8 +1296,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>3b5e44db5ac96fb23a439590b6731a31</MD5>
 			<Meta>
-				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
 				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
 				<version>3.2.3.358</version>
 				<url>http://chickenbones.net/Pages/links.html</url>
 				<authors>ChickenBones, covers1624</authors>
@@ -1311,8 +1310,8 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>0dae43ef5376822db0399ad254207aa3</MD5>
 			<Meta>
-				<description>A collection of utilities for Lunatrius&apos; mods.</description>
 				<credits></credits>
+				<description>A collection of utilities for Lunatrius&apos; mods.</description>
 				<version>1.2.0.42</version>
 				<url>http://mc.lunatri.us/</url>
 				<authors>Lunatrius</authors>
@@ -1325,11 +1324,181 @@ Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Don
 			<ModType>Regular</ModType>
 			<MD5>7c74da338597593b627ee39d5f202719</MD5>
 			<Meta>
-				<description>Adds tags for Thaumcraft data</description>
 				<credits>Azanor for Thaumcraft, and Lunatrius for InGameInfoXML</credits>
+				<description>Adds tags for Thaumcraft data</description>
 				<version>1.0a</version>
 				<url></url>
 				<authors>smbarbour</authors>
+			</Meta>
+		</Module>
+	</Server>
+	<Server id="optional" abstract="true" name="Optional Client-only includes" newsUrl="about:blank" version="1.19.2" generateList="false" autoConnect="false" revision="" mainClass="" launcherType="Vanilla">
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/3872/808/appleskin-forge-mc1.19-2.4.2.jar</URL>
+			<Size>46991</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>3cd43c763f6e9a244a115606faaecf4f</MD5>
+			<Meta>
+				<license>The Unlicense</license>
+				<description>Adds various food-related HUD improvements</description>
+				<version>2.4.2+mc1.19</version>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Configured" id="configured" depends="" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/4462/837/configured-2.1.1-1.19.2.jar</URL>
+			<Size>311480</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>e423b48c33e2b9c6be0ad43ae682f12a</MD5>
+			<Meta>
+				<license>GPL3</license>
+				<description>Creates a simple GUI config for every mod!</description>
+				<version>2.1.1</version>
+				<authors>MrCrayfish</authors>
+			</Meta>
+		</Module>
+		<Module name="Catalogue" id="catalogue" depends="" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/4171/024/catalogue-1.7.0-1.19.2.jar</URL>
+			<Size>222901</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>ff525a8e6c0378579e8e3181ae712c2a</MD5>
+			<Meta>
+				<license>GPL3</license>
+				<description>Updates Forge&apos;s mod list with a new and improved design</description>
+				<version>1.7.0</version>
+				<authors>MrCrayfish</authors>
+			</Meta>
+		</Module>
+		<Module name="EnchantmentDescriptions" id="enchdesc" depends="bookshelf" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/5015/022/EnchantmentDescriptions-Forge-1.19.2-13.0.20.jar</URL>
+			<Size>65124</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>26171f3870100d5201d1df7365a462ea</MD5>
+			<Meta>
+				<license>LGPL V2.1</license>
+				<description>Adds descriptions of enchantments to their tooltip.
+</description>
+				<version>13.0.20</version>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/5106/178/jei-1.19.2-forge-11.6.0.1019.jar</URL>
+			<Size>1090832</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>9715fec8116470c3c88d27b7efd4ebed</MD5>
+			<Meta>
+				<license>The MIT License (MIT)</license>
+				<description>JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.
+</description>
+				<version>11.6.0.1019</version>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Professions (JEP)" id="justenoughprofessions" depends="jei" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/4427/313/JustEnoughProfessions-forge-1.19.2-2.0.2.jar</URL>
+			<Size>23472</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>4368805c076b34cc0d7a7b1a0af1f2a9</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds info about professions to JEI
+</description>
+				<version>2.0.2</version>
+				<authors>Mrbysco, ShyNieke</authors>
+			</Meta>
+		</Module>
+		<Module name="Mod Name Tooltip" id="modnametooltip" depends="" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/3898/427/modnametooltip-1.19-1.19.0.jar</URL>
+			<Size>12658</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>78c0a13a097b0c5aa944cf851f736433</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>On ItemStack tooltips, shows which mod the item is from.
+</description>
+				<version>1.19.0</version>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Oculus" id="oculus" depends="rubidium" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/4763/262/oculus-mc1.19.2-1.6.9.jar</URL>
+			<Size>3499284</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>5c62ae78fcc5baba124c9ac7f950597e</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Unofficial Fork of &quot;Iris&quot;, made to work with FML
+</description>
+				<version>1.6.9</version>
+				<authors>coderbot, IMS212, Justsnoopy30, FoundationGames</authors>
+			</Meta>
+		</Module>
+		<Module name="Rubidium" id="rubidium" depends="" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/4763/255/rubidium-mc1.19.2-0.6.2c.jar</URL>
+			<Size>1407451</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>b9d54d5171598463ef4456083eeb3ce8</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Rubidium is a Unofficial Fork of the Sodium maked to work on FML.
+</description>
+				<version>0.6.2c</version>
+				<authors>NanoLive</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Inventory Sorter" id="inventorysorter" depends="" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/3963/662/inventorysorter-1.19.2-21.0.4.jar</URL>
+			<Size>49523</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>7b8ceff98d03436a42b18a9e9cd42bb2</MD5>
+			<Meta>
+				<license>GPLv3</license>
+				<description>Simple inventory sorting.
+
+Middle click to sort your inventory.
+Scroll wheel on a stack to move in and out.
+</description>
+				<version>21.0.4</version>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/4556/697/Bookshelf-Forge-1.19.2-16.3.20.jar</URL>
+			<Size>320523</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4896952e08b599f8e62e3ce8e98aeab3</MD5>
+			<Meta>
+				<license>LGPL V2.1</license>
+				<description>A library for building other mods.
+</description>
+				<version>16.3.20</version>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="Journeymap" id="journeymap" depends="" side="BOTH">
+			<URL priority="1">https://edge.forgecdn.net/files/5208/387/journeymap-1.19.2-5.9.8-forge.jar</URL>
+			<Size>7091961</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ec7cf9496bb5e7b91254738144419270</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.19-1.9-SNAPSHOT. Built: 2024-03-24-17:47:38.
+</description>
+				<version>5.9.8</version>
+				<authors>Techbrew, Mysticdrew</authors>
 			</Meta>
 		</Module>
 	</Server>
